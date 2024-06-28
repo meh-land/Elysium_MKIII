@@ -1,0 +1,52 @@
+{
+  "name": "simple",
+  "nodes": [
+    {
+      "id": "node_1",
+      "type": "input",
+      "position": {
+        "x": 276.3011474609375,
+        "y": -137.43181610107422
+      },
+      "data": {
+        "label": "entrance",
+        "X": 0,
+        "Y": 0
+      },
+      "width": 150,
+      "height": 40,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "node_2",
+      "type": "output",
+      "position": {
+        "x": 268.8011474609375,
+        "y": 23.56818389892578
+      },
+      "data": {
+        "label": "exit",
+        "X": 1.5,
+        "Y": 0
+      },
+      "width": 150,
+      "height": 40,
+      "selected": true,
+      "positionAbsolute": {
+        "x": 268.8011474609375,
+        "y": 23.56818389892578
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_1",
+      "sourceHandle": null,
+      "target": "node_2",
+      "targetHandle": null,
+      "id": "reactflow__edge-node_1-node_2"
+    }
+  ]
+}

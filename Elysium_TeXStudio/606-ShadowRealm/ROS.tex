@@ -1,0 +1,52 @@
+\subsection{Used Tools and Frameworks}
+\label{subsec:used_tools_frameworks}
+
+For the development of the Communication Hub, our team utilized the Robot Operating System (ROS) 1 as the primary framework. ROS is an open-source software framework that provides a high-level abstraction of the robot's functionality, allowing developers to focus on the implementation of the robot's behavior rather than the underlying hardware.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{Figures//CentralProcessingNode//UsedToolsAndFrameworks//Ros_images/ros_1_architecture_diagram.png}
+\caption{ROS 1 Architecture Diagram}
+\end{figure}
+
+ROS provides functionality for hardware abstraction, device drivers, communication between processes over multiple machines, tools for testing and visualization, and much more. The key feature of ROS is the way the software is run and the way it communicates, allowing you to design complex software without knowing how certain hardware works.
+
+\subsubsection{ROS 1 Core (Master)}
+
+The ROS 1 core, also known as the ROS master, is the central component of the ROS system. It is responsible for managing the ROS graph, which is a collection of nodes, topics, and services that make up the ROS system. The ROS master provides a registry of available nodes, topics, and services, and enables nodes to discover and communicate with each other.
+
+The ROS master is responsible for:
+
+\begin{itemize}
+\item Node registration: nodes register with the ROS master to announce their presence and capabilities.
+\item Topic registration: topics are registered with the ROS master to enable nodes to publish and subscribe to them.
+\item Service registration: services are registered with the ROS master to enable nodes to provide and use them.
+\item Node discovery: nodes can discover other nodes and their capabilities through the ROS master.
+\end{itemize}
+
+In our project, we utilized the ROS 1 core to manage the Communication Hub's nodes and topics. The ROS master enabled us to easily add or remove nodes, and to manage the communication between them.
+
+\subsubsection{ROS Nodes}
+
+In ROS, nodes are the basic execution units that perform specific tasks. They can be thought of as individual programs that communicate with each other using ROS messages. Nodes can be grouped into packages, which can then be easily shared and distributed among ROS users.
+
+
+In our project, we utilized multiple nodes to achieve the Communication Hub's objectives. Each node was responsible for a specific function, such as sensor data processing, actuator control, or data visualization. By using nodes, we were able to separate concerns into their respective nodes, while still empowering the robot to make complex decisions to execute a task.
+
+\subsubsection{Popular ROS Topics}
+
+ROS topics are named buses that allow nodes to communicate with each other. Topics are used to publish and subscribe to messages, enabling nodes to exchange data and coordinate their actions. Some popular ROS topics used in our project include:
+
+\begin{itemize}
+    \item  {/perception/camera/image}: a topic used to publish camera images for object detection and processing.
+    \item {/detector/detections}: a topic used to publish object detection results for further processing and decision-making.
+    \item {/actuator/motor/command}: a topic used to publish motor control commands to the robot's actuators.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{Figures//CentralProcessingNode//UsedToolsAndFrameworks//Ros_images/ros_topic_example.png}
+\caption{Example of a ROS Topic}
+\end{figure}
+
+By leveraging ROS 1 and its node-based architecture, we were able to create a robust and efficient communication system for our robot. The use of ROS enabled us to focus on the implementation of the robot's behavior, rather than the underlying hardware, and to easily integrate and test various components and algorithms.

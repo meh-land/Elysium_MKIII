@@ -1,0 +1,24 @@
+% BIBLIOGRAPHY
+\bibliographystyle{IEEEtran}
+\bibliography{References.bib}
+\cleardoublepage
+
+% APPENDIX
+\appendix\cleardoublepage
+
+\pagenumbering{gobble}
+\appendix
+\pretocmd{\chapter}{%
+	\clearpage
+	\pagenumbering{arabic}%
+	\renewcommand*{\thepage}{\thechapter\arabic{page}}%
+}{}{}
+
+\input{03-BackMatter/AppendixA.tex}
+\input{03-BackMatter/AppendixB.tex}
+\input{03-BackMatter/AppendixC.tex}
+\input{03-BackMatter/AppendixD.tex}
+
+
+% COLOPHON
+\input{03-BackMatter/Colophon.tex}

@@ -1,0 +1,46 @@
+\usepackage[english]{babel} % babel system, adjust the language of the content
+\PassOptionsToPackage{% setup clean thesis style
+    figuresep=colon,%
+    hangfigurecaption=false,%
+    hangsection=true,%
+    hangsubsection=true,%
+    sansserif=true,%
+    %configurelistings=true,%
+    colorize=full,%
+    colortheme=bluemagenta%
+}{elysium}
+\usepackage{elysium}
+
+\renewcommand{\thesispartlabelfont}{\color{ctcolorpartnum}\fontsize{60}{60}\normalfont}
+\renewcommand{\thesispartfont}{\color{ctcolorparttext}\normalfont\huge\bfseries}
+\renewcommand{\thesischapterfont}{\color{ctcolorblack}\normalfont\huge\bfseries}
+\renewcommand{\thesissectionfont}{\color{ctcolorsection}\normalfont\LARGE}
+\renewcommand{\thesissubsectionfont}{\color{ctcolorsubsection}\normalfont\Large}
+\renewcommand{\thesisparagraphfont}{\color{ctcolorparagraph}\normalfont\small\bfseries}
+\renewcommand{\ctfontfooterpagenumber}{\color{ctcolorfooterpage}\normalfont\normalsize\bfseries}
+\renewcommand{\ctfontfootertext}{\color{ctcolorfootertitle}\normalfont\footnotesize}
+
+
+\usepackage{scrhack}
+
+% in order to insert title page as pdf
+\usepackage{pdfpages}
+
+\title{Autonomous Mobile Warehouse Robot}
+\subtitle{Graduation Project Prepared By}
+
+\usepackage{geometry}
+
+\geometry{
+ a4paper, % can write the paper size here instead
+ total={170mm,257mm},
+ left=30mm,
+ top=20mm,
+ bottom=40mm,
+ right=30mm
+ }
+\setlength{\footheight}{20pt}
+\setlength{\footskip}{60pt}
+
+
+\input{IdidItForTheMemes.tex}

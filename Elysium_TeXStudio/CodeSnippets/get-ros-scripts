@@ -1,0 +1,20 @@
+cd ~
+mkdir -p web-ws/src
+cd ~/web-ws/
+catkin_make
+cd src
+catkin_create_pkg web-control std_msgs geometry_msgs nav_msgs rospy roscpp
+cd web-control
+rm ./*
+git clone https://github.com/meh-land/torta_web_control.git .
+cd ~/web-ws
+catkin_make
+source ~/web-ws/devel/setup.bash
+echo "source ~/web-ws/devel/setup.bash" >> ~/.bashrc
+
+cd ~
+git clone https://github.com/meh-land/Tortabot.git
+cd ~/Tortabot/
+catkin_make
+source ~/Tortabot/devel/setup.bash
+echo "source ~/Tortabot/devel/setup.bash" >> ~/.bashrc

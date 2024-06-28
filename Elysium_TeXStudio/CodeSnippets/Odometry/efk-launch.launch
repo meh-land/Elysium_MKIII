@@ -1,0 +1,20 @@
+<launch>
+<arg name="odom_frame" default="odom" />
+<arg name="base_link_frame" default="base_link" />
+<arg name="world_frame" default="odom" />
+
+  <node pkg="robot_localization" type="ekf_localization_node" name="ekf_localization_node" output="screen">
+    <param name="frequency" value="30" />
+    <param name="sensor_timeout" value="0.1" />
+    <param name="two_d_mode" value="true" />
+    <param name="transform_time_offset" value="0.1" />
+    <param name="transform_timeout" value="0.0" />
+    <param name="print_diagnostics" value="true" />
+    <param name="debug" value="false" />
+    <rosparam command="load" file="$(find your_package_name)/config/ekf.yaml" />
+    <param name="odom_frame" value="$(arg odom_frame)" />
+    <param name="base_link_frame" value="$(arg base_link_frame)" />
+    <param name="world_frame" value="$(arg world_frame)" />
+    <remap from="odometry/filtered" to="odometry/ekf" />
+  </node>
+</launch>

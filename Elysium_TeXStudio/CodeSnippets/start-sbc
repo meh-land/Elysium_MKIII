@@ -1,0 +1,5 @@
+cd ~/Dashboard-Backend
+cp .env.example .env
+php artisan serve --host=0.0.0.0 --port=8001
+
+roslaunch torta-bringup robot_low_level_w_odom.launch

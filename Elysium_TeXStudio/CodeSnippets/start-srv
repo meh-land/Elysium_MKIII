@@ -1,0 +1,10 @@
+cd ~/web_App
+echo "REACT_APP_IP=$srv-ip" > .env
+npm start
+
+cd ~/GP_laravel
+cp .env.example .env
+sed -i "s/DB_DATABASE=/DB_DATABASE=$databaseName/g"
+sed -i "s/DB_USERNAME=/DB_USERNAME=$username/g"
+sed -i "s/DB_PASSWORD=/DB_PASSWORD=$password/g"
+php artisan serve --host=0.0.0.0

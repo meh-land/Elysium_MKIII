@@ -1,0 +1,5 @@
+#!/bin/bash
+ufw allow 3000
+ufw allow 8000
+systemctl restart ufw
+

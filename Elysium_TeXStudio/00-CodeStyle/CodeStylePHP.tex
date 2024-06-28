@@ -1,0 +1,40 @@
+\definecolor{dkgreen}{rgb}{0,.6,0}
+\definecolor{dkblue}{rgb}{0,0,.6}
+\definecolor{dkyellow}{cmyk}{0,0,.8,.3}
+
+
+
+\lstdefinestyle{CodeStylePHP}{
+	% Snippet Frame Properties
+	frame=LRTB,
+	rulecolor=\color{black},
+	% Code Font Style
+	basicstyle=\ttfamily\small,
+	% Line Numbering
+	numbers=left,                   % where to put the line-numbers
+	stepnumber=1,                   % the step between two line-numbers.        
+	numbersep=10pt,                 % how far the line-numbers are from the code
+	numberstyle=\footnotesize\color{gray},
+	% Choosing Background Colour, \usepackage{color} Must be Added
+	backgroundcolor=\color{gray!12},
+	% Choosing Comments Colour
+	commentstyle=\color{gray},
+	% Choosing Language Keywords Colour
+	keywordstyle=\color{dkblue},
+        identifierstyle = \color{dkgreen},
+        emph            =[1]{php},
+        emphstyle       =[1]\color{black},
+        emph            =[2]{if,and,or,else},
+        emphstyle       =[2]\color{dkyellow},
+	% Choosing Strings Colour
+	stringstyle=\color{red},
+	% Miscellaneous Settings 
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	tabsize=2,                      % sets default tabsize to 2 spaces
+	captionpos=b,                   % sets the caption-position to bottom
+	breaklines=true,                % sets automatic line breaking
+	breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
+}
+

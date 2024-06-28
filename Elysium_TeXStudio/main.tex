@@ -1,0 +1,29 @@
+\documentclass[%
+paper=A4,               % paper size --> A4 is default in Germany
+twoside=true,           % onesite or twoside printing
+openright,              % doublepage cleaning ends up right side
+parskip=half,           % spacing value / method for paragraphs
+chapterprefix=true,     % prefix for chapter marks
+11pt,                   % font size
+headings=normal,        % size of headings
+bibliography=totoc,     % include bib in toc
+listof=totoc,           % include listof entries in toc
+titlepage=on,           % own page for each title page
+captions=tableabove,    % display table captions above the float env
+chapterprefix=false,    % do not display a prefix for chapters
+appendixprefix=false,    % but display a prefix for appendix chapter
+draft=false,            % value for draft version
+]{scrreprt}%
+
+
+\input{settings.tex}
+
+\begin{document}
+	
+	\input{FrontMatter.tex} % WORKS!
+	
+	\input{MainMatter.tex} % OH YEAAAAAAAH!
+	
+	\input{BackMatter.tex} % YEAH BEBE!
+	
+\end{document}
