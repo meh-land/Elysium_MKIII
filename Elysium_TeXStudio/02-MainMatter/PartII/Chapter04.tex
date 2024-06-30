@@ -95,7 +95,7 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
             \vspace{-1mm}
             \item Implement controls for manual operation of the robot.
             \vspace{-1mm}
-            \item Display real-time data such as status, motors' speed and position.
+            \item Monitor Robot's position through camera streaming.
         \end{itemize}
 
 %%%%%%%%%
@@ -118,25 +118,6 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
 
 %%%%%%%%%
 \newpage
-    \item Python API Development
-        
-        \vspace{-1.5mm}
-        \textbf{Objective}: Develop a Python-based API for enhanced functionality and interoperability.
-
-        \vspace{-1.5mm}
-        \textbf{Details}:
-        \begin{itemize}
-            \vspace{-1mm}
-            \item Design and implement a Python API for additional command execution and data retrieval.
-            %\newpage
-            \vspace{-1mm}
-            \item Utilize web sockets for real-time communication and updates between the client and server.
-            \vspace{-1mm}
-            \item Ensure the Python API integrates seamlessly with the existing system.
-            \vspace{-1mm}
-            \item Provide detailed documentation and examples for using the Python API.
-        \end{itemize}
-
 %%%%%%%%%
 
     \item Performance Optimization
@@ -163,7 +144,7 @@ A comprehensive robot control system is implemented using a combination of front
 \subsubsection{A) React.js and TypeScript}
 
 \textbf{React.js} is a popular JavaScript library for building user interfaces, particularly single-page applications (SPAs). It allows developers to create reusable UI components, making the development process more efficient and manageable \cite{reactjs}. 
-\newpage
+
 \textbf{TypeScript} is a superset of JavaScript that adds static type definitions, enabling developers to catch errors early in the development process and improve code maintainability and readability \cite{reactTS}.
 
 
@@ -212,10 +193,8 @@ A comprehensive robot control system is implemented using a combination of front
     
     Once React Router DOM have been installed, import the needed components for the demo inside App.js/.tsx. Then add the following code snippets:
 
-    \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= React Router Dom Implementation (1), label=cd:socket.io-client, firstline=1, lastline=10]{CodeSnippets/ReactRouterDom.tsx}
-    \newpage
-    \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= React Router Dom Implementation (2), label=cd:socket.io-client2, firstline=11, lastline=24]{CodeSnippets/ReactRouterDom.tsx}
-    
+    \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= React Router Dom Implementation, label=cd:socket.io-client, firstline=1, lastline=24]{CodeSnippets/ReactRouterDom.tsx}
+       
 \end{itemize}
 
 \vspace{-5mm}
@@ -232,111 +211,31 @@ npm command:
     \end{verbatim}
     \vspace{-3mm}
     Once you have installed Axios, it can be used as follows:
-    \vspace{1mm}
-    \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Axios get request Implementation (1), label=cd:axios, firstline=1, lastline=15]{CodeSnippets/axios.tsx}
-    \newpage
-    \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Axios get request Implementation (2), label=cd:axios2, firstline=16, lastline=42]{CodeSnippets/axios.tsx}
-\end{itemize}
-
-\subsubsection*{D) socket.io-client}
-
-\textbf{socket.io-client} package is a library that enables real-time, bidirectional, and event-based communication between the client and server. It is particularly useful for applications that require instant updates, such as real-time notifications \cite{socketio-client} \cite{socketio-react}.
-\vspace{-2mm}
-\begin{itemize}
-    \item \textbf{Usage}: socket.io-client package is used to enable real-time updates by listening for changes in logs, status and Motors' speed from the server, and if there is change, new data is displayed.\footnote{Full code implementation can be viewed at: \url{https://github.com/meh-land/web\_App}}
-    To install socket.io-client package, you can use the following npm command:
-        \begin{verbatim}
-    npm install socket.io-client
-    \end{verbatim}
-    Once you have installed the Socket.IO client library, you can initialize the client as follows:
-
-    \vspace{-2mm}
-\begin{enumerate}
-    \item \textbf{Import the \texttt{io} function from the \texttt{socket.io-client} package}:
-\lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Import the io function from the socket.io-client package, label=cd:socket.io-client, firstline=2, lastline=2]{CodeSnippets/socket.io-client.tsx}
-    \vspace{-3mm}
-    This imports the \texttt{io} function from the \texttt{socket.io-client} package, which is used to establish a connection with the Socket.IO server.
-
-    \item \textbf{Initialize the socket connection}:
-\lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Initialize the socket connection, label=cd:socket.io-client, firstline=5, lastline=9]{CodeSnippets/socket.io-client.tsx}
-    \vspace{-3mm}
-    If the front-end and server are served from the same domain, the default \texttt{io()} initialization is sufficient. If they are served from different domains, you need to provide the server URL.
-
-    \item \textbf{Initiate connection and listen for events}:
-\lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Initiate connection and listen for events, label=cd:socket.io-client, firstline=12, lastline=18]{CodeSnippets/socket.io-client.tsx}
-\vspace{-2mm}
-    Here, we set up a listener for the \texttt{file\_changed\_logs} event. When this event is received, the \texttt{data} is used to update the \texttt{logs} state and is also logged to the console.
-\newpage
-    \item \textbf{Cleanup on component unmount}:
-\lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Cleanup on component unmount, label=cd:socket.io-client, firstline=22, lastline=25]{CodeSnippets/socket.io-client.tsx}
-    This ensures that the \texttt{file\_changed\_logs} event listener is removed when the component is unmounted, preventing potential memory leaks.
-\end{enumerate}
-
-By following these steps, you can effectively manage real-time updates in your application using the Socket.IO client library.
-
-\textbf{Using Flask and Socket.IO for Real-Time File Monitoring} \footnote{Full code implementation can be viewed at: \url{https://shorturl.at/M1oNT}}
-
-The following steps demonstrate how to use Flask and Socket.IO to monitor file changes in real-time and notify clients of updates.
-
-\begin{enumerate}
-    \item \textbf{Import the necessary libraries}:
-
-    \lstinputlisting[language=Python, style=CodeStylePython, caption= Import the necessary libraries, label=cd:socket.io-client, firstline=1, lastline=6]{CodeSnippets/socketAPI.py}
-
-    \vspace{-2mm}
-    
-    These imports bring in the necessary libraries for creating a Flask application, handling real-time communication with Socket.IO, and monitoring file changes with watchdog.
-
-    \item \textbf{Initialize the Flask app and Socket.IO}:
-    \lstinputlisting[language=python, style=CodeStylePython, caption= Initialize the Flask application and sets up Socket.IO with cross-origin support.
-    , label=cd:socket.io-client, firstline=8, lastline=9]{CodeSnippets/socketAPI.py}
-\newpage
-    \item \textbf{Function to monitor file changes}:
-    \vspace{2mm}
-    \lstinputlisting[language=python, style=CodeStylePython, caption= Function to monitor file changes.
-    , label=cd:socket.io-client, firstline=44, lastline=54]{CodeSnippets/socketAPI.py}
-
-    \item \textbf{Run the Flask application with Socket.IO}:
-    \vspace{2mm}
-    \lstinputlisting[language=python, style=CodeStylePython, caption= Run the Flask application with Socket.IO.
-    , label=cd:socket.io-client, firstline=60, lastline=67]{CodeSnippets/socketAPI.py}
-    \vspace{-2mm}
-        Creates and starts threads to monitor each file and runs the Flask application with Socket.IO in debug mode.
-
-    % Hello there
-    % It seems you are busy, just wanted to say hi
-    % Good job you did here
-
-    % Thanks ^^
-
-\end{enumerate}
-
-
+    %\vspace{1mm}
+    \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= Axios get request Implementation, label=cd:axios, firstline=1, lastline=24]{CodeSnippets/axios.tsx}
 \end{itemize}
 
 % In the appendix, you can find more details regarding code usage (see Appendix~\ref{webapp}).
 
 \subsubsection*{E) React Flow}
-\vspace{-2mm}
+%\vspace{-2mm}
 \textbf{React Flow} is a library for building node-based graphical interfaces. It provides tools to create interactive flow diagrams, which are essential for visualizing complex systems and processes \cite{reactflow} \cite{reactflow-examples}.
 
 \begin{itemize}
     \item \textbf{Usage}: React Flow is utilized to design and visualize the path of the robot. It allows users to create, modify, and monitor the robot's movement through an intuitive graphical interface. To install reactflow, you can use the following
 npm command:
 
-\vspace{-2mm}
+%\vspace{-2mm}
             \begin{verbatim}
     npm install reactflow
     \end{verbatim}
     %\vspace{-3mm}
-    \newpage
     Once you have installed reactflow, you can use it as follows:
-\vspace{2mm}
+%\vspace{2mm}
     \lstinputlisting[language=python, style=CodeStylePython, caption= React Flow Implementation.
     , label=cd:socket.io-client, firstline=1, lastline=37]{CodeSnippets/reactflow.tsx}
 \end{itemize}
 
-\newpage
 
 \subsubsection*{F) React Hooks}
 
@@ -397,36 +296,9 @@ The hooks mentioned above are employed to manage the application's state, handle
     \end{itemize}
 \end{itemize}
 
-
-\subsubsection*{B) Python API (Flask)}
-
-\textbf{Flask} is a micro web framework written in Python. It is designed to be simple and flexible, allowing developers to build web applications quickly and with minimal overhead. Flask provides the essentials needed to get a web server up and running but leaves many decisions about architecture and additional features up to the developer. This makes it a popular choice for both small applications and large-scale projects \cite{flask-quickstart}.
-
-\begin{itemize}
-\item \textbf{Usage}: Flask in this code serves as the foundation for creating a web server that can handle HTTP requests and integrate with SocketIO for real-time communication. It provides the necessary infrastructure to serve web pages and handle client connections, while the SocketIO integration allows for dynamic updates based on file changes detected by the watchdog observers. 
-
-
-\newpage
-\item \textbf{Commands}:
-    \begin{itemize}
-        \item \textbf{Install Flask and Flask-SocketIO}:
-        \begin{verbatim}
-        pip install flask flask-socketio
-        \end{verbatim}
-        \vspace{-2mm}
-        \item \textbf{Install Watchdog} (for file system monitoring):
-        \begin{verbatim}
-        pip install watchdog
-        \end{verbatim}
-        
-
-    \end{itemize}
-
-\end{itemize}
-
 \vspace{-3mm}
 
-\subsubsection*{C) ROS (rospy) Scripts}
+\subsubsection*{B) ROS (rospy) Scripts}
 
 \textbf{Python} is a versatile programming language known for its simplicity and extensive library support. It is widely used in robotics for tasks such as data processing, machine learning, and control algorithms. In this context, \textbf{rospy} is the Python client library for ROS (Robot Operating System), which facilitates communication and coordination between various components in a robotic system.
 
@@ -441,7 +313,7 @@ The combination of React.js, TypeScript, React Router DOM, Axios, React Flow, an
 \section{Design and Development Strategy}
 
 The Robot Control System Web Application is designed to provide an intuitive and efficient interface for controlling and monitoring robots in various environments. This project aims to leverage modern web technologies to create a versatile platform that can be accessed from any device with internet connectivity.
-\newpage
+
 \subsection{System Architecture}
 \vspace{-1.5mm}
 The system architecture follows the Model-View-Controller (MVC) concept to ensure a clear separation of concerns and maintainability.
@@ -454,7 +326,7 @@ The client-side application is developed using React.js, a popular JavaScript li
     \item \textbf{View (UI Components)}:
     \begin{itemize}
     \vspace{-1mm}
-        \item \textbf{Dashboard}: A central hub displaying the status and controls for connected robots.
+        \item \textbf{Dashboard}: A central hub displaying camera streaming and controls for connected robots.
         \vspace{-1mm}
         \item \textbf{Control Panel}: An interface for sending commands to the robots, including movement, actions, and other functions.
         \vspace{-1mm}
@@ -507,7 +379,7 @@ The user interface (UI) design will prioritize ease of use, clarity, and accessi
 
 \subsubsection{A) Dashboard}
 \vspace{-1mm}
-The dashboard will provide an overview of connected robot, displaying its current status, location, and speed. Users can quickly select a robot to view more detailed information or take control.
+The dashboard will provide an overview of connected robot, displaying its current location. Users can quickly select a robot to view more detailed information or take control.
 \vspace{-1mm}
 \subsubsection{B) Control Panel}
 \vspace{-1mm}
@@ -640,6 +512,17 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
         \includegraphics[scale=0.4]{Figures/WebApp/taskCreation.png}
         \caption{New task creation}
         \label{fig:task-creation}
+    \end{figure}
+
+    \subsection{Dashboard}
+
+     The dashboard (figure \ref{fig:dashboard}) designed for controlling robots as well as viewing camera streaming for monitoring current position.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[scale=0.4]{Figures/WebApp/dashbaord.png}
+        \caption{Robot Dashboard}
+        \label{fig:dashboard}
     \end{figure}
 
 
