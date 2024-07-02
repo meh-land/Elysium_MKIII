@@ -1,74 +1,81 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Block Diagram That Depicts System Architecture}}{5}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Block Diagram That Depicts System Architecture (2)}}{5}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Block Diagram That Depicts System Architecture}}{3}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Final Design -- Full view}}{13}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Final Design -- Bottom view}}{13}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Final Design -- Side view}}{14}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Final Design -- Back view}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Final Design -- Full view}}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Final Design -- Bottom view}}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Final Design -- Side view}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Final Design -- Back view}}{12}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The Block Diagram for Power Management.}}{16}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Hybrid cell configurations in a pack.}}{17}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The block diagram of the suggested BMS}}{18}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Voltage Measurement Using Voltage Divider.}}{18}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces The voltage drop method of current measurement.}}{19}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Improved Current Measurement Using Voltage Drop Method.}}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Temperature Measurement Using Op-Amp.\cite {op_amp_temperature}}}{20}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Simulating the Cell-Balancing Circuit on LTSpice}}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The results of simulation. $Vin_1$ in green, Current through $R_4$ in red.}}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Voltage Conversion for controller (Top) Measurement Modules and Protection Module (Bottom)}}{21}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Cell-Balancing circuit and the ESP32 controlling the BMS.}}{21}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Schematics for the Power Board. }}{22}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces First Part of Sensors' Board Schematics.}}{22}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Second Part of Sensors' Board Schematics.}}{22}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Schematics of Actuators' Board.}}{23}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces First Part of Motion Board Schematics.}}{23}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Second Part of Motion Board Schematics.}}{23}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces PCB Output for the BMS Board. }}{24}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces PCB Output for the Power Board. }}{24}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces PCB Output for the Sensors' Board. }}{25}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces PCB Output for the Actuators' Board.}}{25}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces PCB Output for the Motion Board.}}{26}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Block Diagram for Power Management.}}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Hybrid cell configurations in a pack.}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The block diagram of the suggested BMS}}{16}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Voltage Measurement Using Voltage Divider.}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The voltage drop method of current measurement.}}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Improved Current Measurement Using Voltage Drop Method.}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Temperature Measurement Using Op-Amp.\cite {op_amp_temperature}}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Simulating the Cell-Balancing Circuit on LTSpice}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The results of simulation. $Vin_1$ in green, Current through $R_4$ in red.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Improved Reverse Polarity Protection}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The used buck converter based on XL4016}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces BMS Board Schematic -- Voltage Conversion for controller (Top) Measurement Modules and Protection Module (Bottom)}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces BMS Board Schematic -- Cell-Balancing circuit ESP32 Controller}}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Power Distribution Board Schematic}}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Sensors Board Schematic -- First Part}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Sensors Board Schematic -- Second Part}}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Actuator Board Schematic}}{23}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Motion Board Schematic -- First Part}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Motion Board Schematic -- Second Part}}{24}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces VLC Receiver Board Schematic}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces BMS Board PCB}}{25}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Power Distribution Board PCB}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Sensors Board PCB}}{26}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Actuator Board PCB}}{26}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Motion Board PCB}}{27}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces VLC Receiver Board PCB}}{27}{figure.caption.36}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Used Microcontroller}}{28}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Used Microcontroller}}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Encoders' Readings Sent Via ROSSerial and Displayed in Terminal}}{37}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces IMU' Readings Sent Via ROSSerial and Displayed in Terminal}}{37}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Communication between ROS nodes}}{43}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Stereo camera}}{45}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Communication Between ROS Nodes}}{46}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces The Block Diagram for The Used VLC system}}{49}{figure.caption.68}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces The used photodiode in the receiver.}}{49}{figure.caption.69}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces The Transimpedance Amplifier Stage of The Implemented Receiver.}}{50}{figure.caption.70}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces The second stage of the receiver: Non-inverting Amplifier (left) and inverting Schmitt Trigger (right).}}{51}{figure.caption.71}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Simulating The second phase of the receiver on LTSpice.}}{51}{figure.caption.72}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces The results of simulation.}}{51}{figure.caption.73}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Schematics for The VLC Receiver.}}{52}{figure.caption.76}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces PCB Output for The VLC Receiver.}}{52}{figure.caption.79}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The Block Diagram for The Used VLC system}}{51}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces BPW34 Photodiode}}{51}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The Transimpedance Amplifier Stage of The Implemented Receiver}}{52}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces The second stage of the receiver: Non-inverting Amplifier (Left) and inverting Schmitt Trigger (Right)}}{53}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Simulating The second phase of the receiver on LTSpice.}}{53}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces The results of simulation.}}{53}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Home page}}{71}{figure.caption.104}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Robots management dashboard}}{72}{figure.caption.105}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Creating new robot}}{72}{figure.caption.106}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Editing robot}}{72}{figure.caption.107}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Maps management dashboard}}{73}{figure.caption.108}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Node map editor}}{73}{figure.caption.109}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Updating node information.}}{74}{figure.caption.110}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Edit map}}{74}{figure.caption.111}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Tasks management dashboard}}{75}{figure.caption.112}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces New task creation}}{75}{figure.caption.113}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Sign-up screen}}{90}{figure.caption.118}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Sign-in screen}}{90}{figure.caption.119}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Home page}}{72}{figure.caption.77}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Robots management dashboard}}{72}{figure.caption.78}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Creating new robot}}{73}{figure.caption.79}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Editing robot}}{73}{figure.caption.80}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Maps management dashboard}}{74}{figure.caption.81}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Node map editor}}{74}{figure.caption.82}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Updating node information.}}{75}{figure.caption.83}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Edit map}}{75}{figure.caption.84}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Tasks management dashboard}}{76}{figure.caption.85}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces New task creation}}{76}{figure.caption.86}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Robot Dashboard}}{77}{figure.caption.87}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Sign-up screen}}{92}{figure.caption.92}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Sign-in screen}}{92}{figure.caption.93}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Pulses per Revolution Diagram}}{B3}{figure.caption.121}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Encoder Output Signals}}{B3}{figure.caption.122}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces MPU6050 Module}}{B4}{figure.caption.123}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces MPU-6050 3-Axis Gyroscope}}{B5}{figure.caption.124}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces MPU-6050 3-Axis Accelerometer}}{B5}{figure.caption.125}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Ultrasonic Module}}{B6}{figure.caption.126}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Ultrasonic sensor diagram}}{B7}{figure.caption.127}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Voltage Measurement Using Voltage Divider}}{B2}{figure.caption.95}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Temperature Measurement Using Op-Amp \cite {op_amp_temperature}}}{B4}{figure.caption.96}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Pulses per Revolution Diagram}}{C3}{figure.caption.97}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Encoder Output Signals}}{C3}{figure.caption.98}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces MPU6050 Module}}{C4}{figure.caption.99}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces MPU-6050 3-Axis Gyroscope}}{C5}{figure.caption.100}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces MPU-6050 3-Axis Accelerometer}}{C5}{figure.caption.101}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Ultrasonic Module}}{C6}{figure.caption.102}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Ultrasonic sensor diagram}}{C7}{figure.caption.103}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

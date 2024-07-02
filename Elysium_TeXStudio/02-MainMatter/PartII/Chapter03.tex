@@ -25,16 +25,23 @@ In the subsequent sections we discuss the implementation of these objectives at 
 %\section{First Objective: Communication Hub}
 % I want to remove the "First objective" part
 % Sure thing, fam
-\section{Used Tools and Frameworks} % + state reason behind using them
-Different tools are used to accomplish the two desired types of communication.
-\subsection{Tools for Upwards Communication}
+\section{Proposed Communication Model} % + state reason behind using them
+Different tools are used to accomplish the two desired types of communication: Upward and Downward Communication; both will be explained in the following subsections.
+\newpage
+\subsection{Upwards Communication}
 There are two types of data that the SBC needs to receive from the server. The first type of data is the direct user request, this is what the SBC receives when the user requests that the robot moves with a specific speed, or when the user starts a given task. In short, the request data type is directly triggered by a user action.
 
 Requests are sent from the server to the SBC using the Axios framework, which will be discussed in further detail in the next chapter, but in short, it is a tool used to send requests from the front-end of a web application to some endpoint. Axios uses XML and HTTP to accomplish this goal \cite{axios-intro}. These requests are sent from the user-facing GUI to the PHP back-end that is running on the SBC.
 
-The other data type that the SBC needs to receive from the server is files. Some user input is too complex to encapsulate in a single request, so these inputs are collected in files on the server, which are then sent to the SBC. The two main types of files are map files and task files, both of which are of the commonly used JavaScript Object Notation (JSON) format. Map json files contain details about the maps that the user creates in the GUI. For example it contains the identifiers and labels of every node in the map, the relation between nodes (which nodes are connected with wich nodes), and the absolute position of every node. A simple map json file is shown in code snippet \ref{cd:sampleMap}.
+The other data type that the SBC needs to receive from the server is files. Some user input is too complex to encapsulate in a single request, so these inputs are collected in files on the server, which are then sent to the SBC. The two main types of files are map files and task files, both of which are of the commonly used JavaScript Object Notation (JSON) format. Map json files contain details about the maps that the user creates in the GUI. For example it contains the identifiers and labels of every node in the map, the relation between nodes (which nodes are connected with wich nodes), and the absolute position of every node. A simple map json file is shown in code snippets \ref{cd:sampleMap} and \ref{cd:sampleMap2}.
 
-\lstinputlisting[style=CodeStyleJSON, caption=Sample json map file, label=cd:sampleMap]{./CodeSnippets/sample-map.json}
+\lstinputlisting[style=CodeStyleJSON, caption=Sample JSONn Map File, label=cd:sampleMap, firstline=1, lastline=20]{./CodeSnippets/sample-map.json}
+
+\newpage
+
+\lstinputlisting[style=CodeStyleJSON, caption=Sample JSONn Map File (Continued), label=cd:sampleMap2, firstline=21, lastline=52]{./CodeSnippets/sample-map.json}
+
+\newpage
 
 Similarly, when the user creates a new task to be executed by a robot, this task is saved to a json file on the server. A sample task file is shown in code snippet \ref{cd:sampleTask}.
 
@@ -53,14 +60,27 @@ The system administrator is free to change:
 	\item The directories that RSYNC targets for synchronization.
 \end{itemize}
 
+\newpage
+
 \lstinputlisting[language=Bash, style=CodeStyleBash, caption=Synchronization script, label=cd:rsync]{./CodeSnippets/sync-maps-tasks.sh}
 
-\subsection{Tools for Downwards Communication}
-Downwards communication is mainly accomplished using the Robot Operating System (ROS) which is a set of software libraries and tools that are used to build robot applications\cite{ros_documentation}. When building an application using ROS, the application logic is broken into a number of ROS nodes, where these nodes communicate using ROS topics. When a node produces data it is then called a publisher, that is because this data is published on a specific topic. When a node receives data it is then called a subscriber, that is because it subscribes to the appropriate ROS topic that contains the data of interest. This data is called ROS messages, and each ROS topic supports a specific type of messages. For example, some ROS topics support only integer data, so all nodes publishing on this topic must only publish integer data, and all nodes subscribing to this topic must only expect to receive integer data. Figure \ref{fig:ros_arch_official} shows the relation between the different ROS nodes on the system as well as the ROS topics\cite{ros_documentation}. There have been many ROS releases over the years, here we use ROS Noetic, which is primarily targeted for machines that run Ubuntu 20.04 LTS as their operating system. In other words, newer versions of Ubuntu will not be compatible with ROS Noetic.
-\begin{figure}[ht]
+Another form of upwards communication is the feedback that the SBC provides for the user, the main type of this feedback is the camera stream. The robot is equipped with a stereo camera, this camera's stream is then broadcast on the network for the user to view.
+The camera is shown in figure \ref{fig:stereo-cam}, this stereo camera is connected to the SBC using USB. The stream from this camera is broadcast on the network using a the mjpg-streamer, which is a command line application that copies JPEG frames from one or more input plugins to multiple output plugins\cite{mjpg-streamer}. In this specific instance, the input plugin that is used is the input\_uvc.so plugin, which deals with USB input cameras, and the output plugin is the output\_http.so plugin, which allows mjpg-streamer to broadcast the stream using HTTP.
+\begin{figure}[h!]
 	\centering
-	\includegraphics{./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch-official.jpeg}
-	\caption{Communication between ROS nodes}
+	\includegraphics[scale=0.8]{./Figures/cam.jpg}
+	\caption{Stereo camera}
+	\label{fig:stereo-cam}
+\end{figure}
+
+\subsection{Downwards Communication}
+Downwards communication is mainly accomplished using the Robot Operating System (ROS) which is a set of software libraries and tools that are used to build robot applications\cite{ros_documentation}. 
+\newpage
+When building an application using ROS, the application logic is broken into a number of ROS nodes, where these nodes communicate using ROS topics. When a node produces data it is then called a publisher, that is because this data is published on a specific topic. When a node receives data it is then called a subscriber, that is because it subscribes to the appropriate ROS topic that contains the data of interest. This data is called ROS messages, and each ROS topic supports a specific type of messages. For example, some ROS topics support only integer data, so all nodes publishing on this topic must only publish integer data, and all nodes subscribing to this topic must only expect to receive integer data. Figure \ref{fig:ros_arch_official} shows the relation between the different ROS nodes on the system as well as the ROS topics\cite{ros_documentation}. There have been many ROS releases over the years, here we use ROS Noetic, which is primarily targeted for machines that run Ubuntu 20.04 LTS as their operating system. In other words, newer versions of Ubuntu will not be compatible with ROS Noetic.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.8]{./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch-official.jpeg}
+	\caption{Communication Between ROS Nodes}
 	\label{fig:ros_arch_official}
 \end{figure}
 
@@ -77,8 +97,9 @@ We will define some of the basic concepts needed to understand ROS and how to us
 	\item Message (msg) Types:
 	
 	Message types, define the data structures for messages sent within ROS.
-	
+
 	There are several types of messages used to facilitate communication between nodes. These message types are defined by their content and structure. The main types of ROS messages are:
+		\newpage
 	\begin{enumerate}
 		\item Standard Messages:
 		
@@ -95,7 +116,8 @@ We will define some of the basic concepts needed to understand ROS and how to us
 		\item Custom Messages:
 		
 		Users can define their own message types to suit their specific application needs. Custom messages are defined in .msg files within a ROS package and can include various data types such as integers, floats, strings, arrays, and other message types.
-	\end{enumerate}    
+	\end{enumerate}  
+	  
 	\item Nodes:
 	
 	Nodes are processes that perform computations. ROS is designed for fine-grained modularity, meaning a robot control system typically comprises many nodes. For example, one node might control a laser range-finder, another controls the wheel motors, another handles localization, another performs path planning, and yet another provides a graphical view of the system. Nodes in ROS are written using a ROS client library such as roscpp or rospy.
@@ -122,8 +144,8 @@ We will define some of the basic concepts needed to understand ROS and how to us
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\chapter{Central Processing Node -- Reliable Localization}
-
+\chapter{Indoor Localization}
+\label{ch:loc}
 \section{Development Objectives}
 Through the robot runtime, it will receive missions in which cargo shall be transmitted from one place to another. Each place has its own set of information, which can either be related to the place itself, related to adjacent places, or assigned by the infrastructure. In light of all of this, the robot should be able to:
 \begin{itemize}
@@ -143,26 +165,30 @@ Additionally, Visible Light Communication (VLC) is used as an auxiliary means of
 	\item It depends on the inherent need of Line-Of-Sight (LOS) and the inability to penetrate through walls, making it more secure.
 \end{itemize}
 
+\newpage
+
 Localization via VLC can be classified into two categories depending on the specific implementation details and use cases, which are: \textbf{Direct Positioning}; where the receiver uses all received information (i.e. time of arrival, angle of arrival) from transmitters to directly determine its position, and \textbf{Two-Step Positioning}, in which the receiver first extracts position-related parameters from the transmitter, then processes these parameters using algorithms to determine its location. 
 For its convenience, the two-step positioning approach is utilized, and more specifically the \textbf{proximity method}.% \cite{vlp} 
 
-\subsection{Proposed Design}
+\subsection{Odometry}
 The localization system uses a combination of dead reckoning and sensor fusion to maintain an accurate estimate of the robot's position. The dead reckoning algorithm is implemented in the \textbf{dead\_reckoning.py} script, which updates the robot's position based on wheel encoder data and publishes it as an odometry ROS message.
 
 \subsubsection{Forward Kinematics}
-Forward kinematics involves calculating the position and orientation of the robot based on the joint parameters (e.g., wheel rotations). The dead reckoning script shown in code snippet \ref{cd:dead-reckoning} in Appendix~\ref{ap:d} includes the implementation of forward kinematics for a differential drive robot.
+Forward kinematics involves calculating the position and orientation of the robot based on the joint parameters (e.g., wheel rotations). The dead reckoning script shown in code snippet \ref{cd:dead-reckoning} in Appendix D includes the implementation of forward kinematics for a differential drive robot.
 
 
 The script calculates the changes in position ($\Delta x$, $\Delta y$) and orientation ($\Delta \theta$) based on the velocity commands received and updates the robot's position accordingly.
 
 \subsubsection{Inverse Kinematics}
-Inverse kinematics involves calculating the joint parameters needed to achieve a specific position and orientation of the robot. In the context of a differential drive robot, inverse kinematics can be derived from the desired linear and angular velocities to determine the individual wheel speeds. The implementation is shown in code snippet \ref{cd:inverse-kinematics} located in Appendix~\ref{ap:d}.
+Inverse kinematics involves calculating the joint parameters needed to achieve a specific position and orientation of the robot. In the context of a differential drive robot, inverse kinematics can be derived from the desired linear and angular velocities to determine the individual wheel speeds. The implementation is shown in code snippet \ref{cd:inverse-kinematics} located in Appendix D.
 
 
 \subsubsection{Sensor Fusion using EKF}
-The EKF is configured to combine odometry data and IMU data to provide a more accurate and robust localization estimate. The EKF configuration is provided in code snippet \ref{cd:efk-launch} situated in Appendix~\ref{ap:d}.
+The EKF is configured to combine odometry data and IMU data to provide a more accurate and robust localization estimate. The EKF configuration is provided in code snippet \ref{cd:efk-launch} situated in Appendix D.
 
-\subsubsection{Visible Light Communication:}
+\newpage
+
+\subsection{Visible Light Communication:}
 In the proximity method, each transmitter (i.e. LED) continuously sends a code specific to its location. As the robot moves, the receiver receives information from the closest transmitter, then uses algorithms to determine the code, thus knows its location. This method is chosen as a trade-off between its simplicity and its inaccuracy in localization. However, the used applications for the robot may not require much accuracy.
 \cite{vlp} \cite{indoor-vlp}
 
@@ -178,18 +204,21 @@ The structure of the used VLC system is shown in figure \ref{fig:hw-vlc-blk}. Th
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.4]{Figures/HW/BPW34.png}
-	\caption{The used photodiode in the receiver.}
+	\caption{BPW34 Photodiode}
 	\label{fig:hw-vlc-pd}
 \end{figure}
 
 
 The key element of the receiver system is the \textbf{photodiode}, in this case, a BPW34 shown in figure \ref{fig:hw-vlc-pd}, which designed to work within wavelengths \textbf{[420:1100] nm}, produce open-circuit voltage up to \textbf{350 mV}, and short circuit current up to \textbf{70 $\mu$A }. It acts just like a solar-cell: when light falls on it, it generates current to its load. \cite{BPW34-datasheet}.
-\newline The issue is dealing with the BPW34 directly is quite difficult; since its current is in the $\mu$A. A solution this problem is to convert this insignificant current into more measurable voltage through a \textbf{Transimpedance Amplifier} (or TI). It is designed to amplify the light-dependent current of the photodiode. 
+
+\newpage
+
+The issue is dealing with the BPW34 directly is quite difficult; since its current is in the $\mu$A. A solution this problem is to convert this insignificant current into more measurable voltage through a \textbf{Transimpedance Amplifier} (or TI). It is designed to amplify the light-dependent current of the photodiode. 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.6]{Figures/HW/ti-amp-buffer.png}
-	\caption{The Transimpedance Amplifier Stage of The Implemented Receiver.}
+	\includegraphics[scale=0.5]{Figures/HW/ti-amp-buffer.png}
+	\caption{The Transimpedance Amplifier Stage of The Implemented Receiver}
 	\label{fig:hw-ti-buffer}
 \end{figure}
 
@@ -216,25 +245,27 @@ One way to optimize this behaviour is using a Schmitt Trigger for decision makin
 \end{itemize}
 Where $V_u$ and $V_l$ are the Schmitt Trigger upper and lower thresholds respectively.
 
+\newpage
+
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.3]{Figures/HW/amp-schmitt.png}
-	\caption{The second stage of the receiver: Non-inverting Amplifier (left) and inverting Schmitt Trigger (right).}
+	\includegraphics[scale=0.45]{Figures/HW/amp-schmitt.png}
+	\caption{The second stage of the receiver: Non-inverting Amplifier (Left) and inverting Schmitt Trigger (Right)}
 	\label{fig:hw-amp-schmitt}
 \end{figure}
 
-The used schmitt trigger in the actual circuit is an inverting one, so $V_{out}$ inverted from what was mentioned above. To design the second stage with proper components, LTSpice was used for simulation, as found in figure \ref{hw-amp-schmitt-sim}. The results can be found on figure \ref{hw-amp-schmitt-results}. It noted that $V_{amplified}$ is clamped from the negative side due to the presence of ground instead on negative voltage. On the other hand, to prevent clamping on the positive side for the amplifier, the 12V supply can be used to power it.
+The used schmitt trigger in the actual circuit is an inverting one, so $V_{out}$ inverted from what was mentioned above. To design the second stage with proper components, LTSpice was used for simulation, as found in figure \ref{fig:hw-amp-schmitt-sim}. The results can be found on figure \ref{fig:hw-amp-schmitt-results}. It noted that $V_{amplified}$ is clamped from the negative side due to the presence of ground instead on negative voltage. On the other hand, to prevent clamping on the positive side for the amplifier, the 12V supply can be used to power it.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.3]{Figures/HW/amp-schmitt-ltspice.png}
+	\includegraphics[scale=0.35]{Figures/HW/amp-schmitt-ltspice.png}
 	\caption{Simulating The second phase of the receiver on LTSpice.}
 	\label{fig:hw-amp-schmitt-sim}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.3]{Figures/HW/amp-schmitt-ltspice-results.png}
+	\includegraphics[scale=0.35]{Figures/HW/amp-schmitt-ltspice-results.png}
 	\caption{The results of simulation.}
 	\label{fig:hw-amp-schmitt-results}
 \end{figure}
@@ -244,31 +275,15 @@ The used schmitt trigger in the actual circuit is an inverting one, so $V_{out}$
 % The secret of DIO's stand is sto
 % :""""
 % DIO! Yaro!
-\newpage
-\subsection{Output}
-The localization system meets the following specifications:
-\begin{itemize}
-	\item Accurate path determination from current location to target location.
-	\item Real-time localization using existing infrastructure and sensor fusion.
-	\item Robust integration of various sensor inputs to maintain accuracy.
-\end{itemize}
+%\newpage
+%\section{Output}
+%The localization system meets the following specifications:
+%\begin{itemize}
+%	\item Accurate path determination from current location to target location.
+%	\item Real-time localization using existing infrastructure and sensor fusion.
+%	\item Robust integration of various sensor inputs to maintain accuracy.
+%\end{itemize}
 
-\subsection{Hardware Output:}
-\subsubsection{Schematic}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale=0.3]{Figures/HW/schem-vlc.png}
-	\caption{Schematics for The VLC Receiver.}
-	\label{fig:hw-vlc-schem}
-\end{figure}
 
-\subsubsection{PCB}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale=0.5]{Figures/HW/pcb-vlc.png}
-	\caption{PCB Output for The VLC Receiver.}
-	\label{fig:hw-vlc-pcb}
-\end{figure}
 
-\newpage
 %The EKF setup integrates multiple sensor inputs to enhance the accuracy of the robot's localization.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

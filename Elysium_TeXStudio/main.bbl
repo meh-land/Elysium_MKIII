@@ -38,23 +38,42 @@ E.~Technologies, ``Battery cell comparison,'' 2008, accessed: 2024-06-19.
   [Online]. Available: \url{https://bit.ly/4cshLRm}
 \BIBentrySTDinterwordspacing
 
+\bibitem{AOD403-datasheet}
+\BIBentryALTinterwordspacing
+A.~.~O. Semiconductor, \emph{AOD403/AOI403 Datasheet}, July 2013. [Online].
+  Available: \url{https://bit.ly/45I3EVC}
+\BIBentrySTDinterwordspacing
+
+\bibitem{XL4016-datasheet}
+\BIBentryALTinterwordspacing
+XLSEMI, \emph{XL4016 Datasheet}. [Online]. Available:
+  \url{https://bit.ly/4cHFixN}
+\BIBentrySTDinterwordspacing
+
 \bibitem{stm32-site}
 \BIBentryALTinterwordspacing
-STMicroelectronics. (2024) Stm32f103c8. Accessed: 2024-06-23. [Online].
+STMicroelectronics, ``Stm32f103c8,'' 2024, accessed: 2024-06-23. [Online].
   Available: \url{https://shorturl.at/QDMz0}
 \BIBentrySTDinterwordspacing
 
 \bibitem{axios-intro}
 \BIBentryALTinterwordspacing
-AxiosContributors. (2024) Getting started with axios. Accessed: 2024-06-14.
+AxiosContributors, ``Getting started with axios,'' 2024, accessed: 2024-06-14.
   [Online]. Available: \url{https://axios-http.com/docs/intro}
 \BIBentrySTDinterwordspacing
 
 \bibitem{rsync-github}
 \BIBentryALTinterwordspacing
-RsyncProject. (2024) Rsync: An open source utility for fast incremental file
-  transfer. Accessed: 2024-06-14. [Online]. Available:
+RsyncProject, ``Rsync: An open source utility for fast incremental file
+  transfer,'' 2024, accessed: 2024-06-14. [Online]. Available:
   \url{https://github.com/RsyncProject/rsync}
+\BIBentrySTDinterwordspacing
+
+\bibitem{mjpg-streamer}
+\BIBentryALTinterwordspacing
+J.~Liam, ``mjpg-streamer,'' \url{https://github.com/jacksonliam/mjpg-streamer},
+  2024, gitHub repository. [Online]. Available:
+  \url{https://github.com/jacksonliam/mjpg-streamer}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ros_documentation}
@@ -63,121 +82,138 @@ O.~Robotics, ``Robot operating system (ros),'' 2024, accessed: 2024-06-22.
   [Online]. Available: \url{https://ros.org/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{vlp}
+M.~F. Keskin, A.~D. Sezer, and S.~Gezici, ``Localization via visible light
+  systems,'' \emph{Proceedings of the IEEE}, vol. 106, no.~6, pp. 1063--1088,
+  2018.
+
+\bibitem{indoor-vlp}
+P.~Cherntanomwong and W.~Chantharasena, ``Indoor localization system using
+  visible light communication,'' in \emph{2015 7th International Conference on
+  Information Technology and Electrical Engineering (ICITEE)}, 2015.
+
+\bibitem{BPW34-datasheet}
+\BIBentryALTinterwordspacing
+Vishay, \emph{BPW34 Datasheet}, 2024. [Online]. Available:
+  \url{https://bit.ly/3XFJOZa}
+\BIBentrySTDinterwordspacing
+
+\bibitem{op-amp-circuits}
+\BIBentryALTinterwordspacing
+T.~Instruments, \emph{Analog Engineer’s Circuit Cookbook: Amplifiers}, 2019.
+  [Online]. Available: \url{https://bit.ly/4cHFixN}
+\BIBentrySTDinterwordspacing
+
 \bibitem{reactjs}
 \BIBentryALTinterwordspacing
-ReactTeam. (2024) React – a javascript library for building user interfaces.
-  Accessed: 2024-06-16. [Online]. Available: \url{https://legacy.reactjs.org/}
+ReactTeam, ``React – a javascript library for building user interfaces,''
+  2024, accessed: 2024-06-16. [Online]. Available:
+  \url{https://legacy.reactjs.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reactTS}
 \BIBentryALTinterwordspacing
-------. (2024) Using typescript with react. Accessed: 2024-06-16. [Online].
+------, ``Using typescript with react,'' 2024, accessed: 2024-06-16. [Online].
   Available: \url{https://react.dev/learn/typescript}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reactrouter}
 \BIBentryALTinterwordspacing
-ReactRouterTeam. (2024) React router: Overview. Accessed: 2024-06-16. [Online].
-  Available: \url{https://reactrouter.com/en/main/start/overview}
+ReactRouterTeam, ``React router: Overview,'' 2024, accessed: 2024-06-16.
+  [Online]. Available: \url{https://reactrouter.com/en/main/start/overview}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reactrouterdom}
 \BIBentryALTinterwordspacing
-------. (2024) react-router-dom. Accessed: 2024-06-16. [Online]. Available:
+------, ``react-router-dom,'' 2024, accessed: 2024-06-16. [Online]. Available:
   \url{https://www.npmjs.com/package/react-router-dom}
 \BIBentrySTDinterwordspacing
 
 \bibitem{axios}
 \BIBentryALTinterwordspacing
-AxiosTeam. (2024) axios. Accessed: 2024-06-16. [Online]. Available:
+AxiosTeam, ``axios,'' 2024, accessed: 2024-06-16. [Online]. Available:
   \url{https://www.npmjs.com/package/axios}
 \BIBentrySTDinterwordspacing
 
 \bibitem{socketio-client}
 \BIBentryALTinterwordspacing
-Socket.IOTeam. (2024) socketio-client. Accessed: 2024-06-16. [Online].
+Socket.IOTeam, ``socket.io-client,'' 2024, accessed: 2024-06-16. [Online].
   Available: \url{https://www.npmjs.com/package/socket.io-client}
 \BIBentrySTDinterwordspacing
 
 \bibitem{socketio-react}
 \BIBentryALTinterwordspacing
-------. (2024) Using socket.io with react. Accessed: 2024-06-16. [Online].
+------, ``Using socket.io with react,'' 2024, accessed: 2024-06-16. [Online].
   Available: \url{https://socket.io/how-to/use-with-react}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reactflow}
 \BIBentryALTinterwordspacing
-ReactFlowTeam. (2024) reactflow. Accessed: 2024-06-16. [Online]. Available:
+ReactFlowTeam, ``reactflow,'' 2024, accessed: 2024-06-16. [Online]. Available:
   \url{https://www.npmjs.com/package/reactflow}
 \BIBentrySTDinterwordspacing
 
 \bibitem{reactflow-examples}
 \BIBentryALTinterwordspacing
-------. (2024) React flow: Examples. Accessed: 2024-06-16. [Online]. Available:
-  \url{https://reactflow.dev/examples}
+------, ``React flow: Examples,'' 2024, accessed: 2024-06-16. [Online].
+  Available: \url{https://reactflow.dev/examples}
 \BIBentrySTDinterwordspacing
 
 \bibitem{react-hooks-intro}
 \BIBentryALTinterwordspacing
-ReactTeam. (2024) Introducing hooks. Accessed: 2024-06-16. [Online]. Available:
-  \url{https://legacy.reactjs.org/docs/hooks-intro.html}
+ReactTeam, ``Introducing hooks,'' 2024, accessed: 2024-06-16. [Online].
+  Available: \url{https://legacy.reactjs.org/docs/hooks-intro.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{react-hooks-reference}
 \BIBentryALTinterwordspacing
-------. (2024) React: Hooks reference. Accessed: 2024-06-16. [Online].
+------, ``React: Hooks reference,'' 2024, accessed: 2024-06-16. [Online].
   Available: \url{https://react.dev/reference/react/hooks}
 \BIBentrySTDinterwordspacing
 
 \bibitem{react-hooks-state}
 \BIBentryALTinterwordspacing
-------. (2024) Using the state hook. Accessed: 2024-06-16. [Online]. Available:
-  \url{https://legacy.reactjs.org/docs/hooks-state.html}
+------, ``Using the state hook,'' 2024, accessed: 2024-06-16. [Online].
+  Available: \url{https://legacy.reactjs.org/docs/hooks-state.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{react-usecontext}
 \BIBentryALTinterwordspacing
-------. (2024) React: usecontext hook. Accessed: 2024-06-16. [Online].
+------, ``React: usecontext hook,'' 2024, accessed: 2024-06-16. [Online].
   Available: \url{https://react.dev/reference/react/useContext}
 \BIBentrySTDinterwordspacing
 
 \bibitem{react-hooks-effect}
 \BIBentryALTinterwordspacing
-------. (2024) Using the effect hook. Accessed: 2024-06-16. [Online].
+------, ``Using the effect hook,'' 2024, accessed: 2024-06-16. [Online].
   Available: \url{https://legacy.reactjs.org/docs/hooks-effect.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{laravel-docs}
 \BIBentryALTinterwordspacing
-LaravelTeam. (2024) Laravel documentation (version 11.x). Accessed: 2024-06-16.
-  [Online]. Available: \url{https://laravel.com/docs/11.x}
+LaravelTeam, ``Laravel documentation (version 11.x),'' 2024, accessed:
+  2024-06-16. [Online]. Available: \url{https://laravel.com/docs/11.x}
 \BIBentrySTDinterwordspacing
 
 \bibitem{laravel-middleware}
 \BIBentryALTinterwordspacing
-------. (2024) Laravel middleware documentation. Accessed: 2024-06-16.
+------, ``Laravel middleware documentation,'' 2024, accessed: 2024-06-16.
   [Online]. Available:
   \url{https://laravel.com/docs/11.x/middleware#main-content}
 \BIBentrySTDinterwordspacing
 
 \bibitem{laravel-passport}
 \BIBentryALTinterwordspacing
-------. (2024) Laravel passport documentation. Accessed: 2024-06-16. [Online].
-  Available: \url{https://laravel.com/docs/11.x/passport#main-content}
+------, ``Laravel passport documentation,'' 2024, accessed: 2024-06-16.
+  [Online]. Available:
+  \url{https://laravel.com/docs/11.x/passport#main-content}
 \BIBentrySTDinterwordspacing
 
 \bibitem{laravel-filesystem}
 \BIBentryALTinterwordspacing
-------. (2024) Laravel filesystem documentation. Accessed: 2024-06-16.
+------, ``Laravel filesystem documentation,'' 2024, accessed: 2024-06-16.
   [Online]. Available:
   \url{https://laravel.com/docs/11.x/filesystem#main-content}
-\BIBentrySTDinterwordspacing
-
-\bibitem{flask-quickstart}
-\BIBentryALTinterwordspacing
-FlaskTeam. (2024) Flask quickstart documentation. Accessed: 2024-06-16.
-  [Online]. Available:
-  \url{https://flask.palletsprojects.com/en/3.0.x/quickstart/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{ubuntu-ufw}

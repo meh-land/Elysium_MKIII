@@ -2,9 +2,9 @@
 #include <I2Cdev.h>
 #include <MPU6050_6Axis_MotionApps20.h>
 
-float euler[3];         // [psi, theta, phi]    Euler angle container
+float euler[3];   // [psi, theta, phi] Euler angle
 uint8_t fifoBuffer[64]; // FIFO storage buffer
-Quaternion q;           // [w, x, y, z]         quaternion container
+Quaternion q;           // [w, x, y, z] quaternion 
 MPU6050 mpu;
 
 //Give the gyro time to start

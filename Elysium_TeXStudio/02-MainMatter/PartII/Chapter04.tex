@@ -13,17 +13,17 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
 \begin{enumerate}
     \item User Interface (UI) Design.
     
-            \vspace{-1.5mm}
+
             \textbf{Objective:} Create an intuitive and user-friendly interface that allows users to easily navigate through the app.
             
-            \vspace{-1.5mm}
+
             \textbf{Details}:
             \begin{itemize}
-                \vspace{-1mm}
+
                 \item Develop a dashboard for quick access to main features.
-                \vspace{-1mm}
-                \item Design task creation and map editing interfaces with drag-and-drop functionality.
-                \vspace{-1mm}
+
+                \item Design task creation \& map editing interfaces with drag-and-drop functionality.
+
                 \item Ensure responsive design for compatibility with various devices.
             \end{itemize}
 
@@ -31,22 +31,22 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
             
     \item Task Management System.
 
-        \vspace{-1.5mm}
+
         \textbf{Objective}: Develop a robust task management system for creating, scheduling, and monitoring tasks.
 
-        \vspace{-1.5mm}
+
         \textbf{Details}:
         \begin{itemize}
-            \vspace{-1mm}
+
             \item Allow users to create, edit, and delete tasks.
-            \vspace{-1mm}
+
             \item Enable task scheduling.
-            \vspace{-1mm}
+
             \item Assign Task to a robot easily.
         \end{itemize}
 
 %%%%%%%%%
-
+\newpage
     \item Reliable data storage and management.
     
         \vspace{-1.5mm}
@@ -95,7 +95,7 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
             \vspace{-1mm}
             \item Implement controls for manual operation of the robot.
             \vspace{-1mm}
-            \item Display real-time data such as status, motors' speed and position.
+            \item Monitor Robot's position through camera streaming.
         \end{itemize}
 
 %%%%%%%%%
@@ -117,25 +117,8 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
         \end{itemize}
 
 %%%%%%%%%
-\newpage
-    \item Python API Development
-        
-        \vspace{-1.5mm}
-        \textbf{Objective}: Develop a Python-based API for enhanced functionality and interoperability.
 
-        \vspace{-1.5mm}
-        \textbf{Details}:
-        \begin{itemize}
-            \vspace{-1mm}
-            \item Design and implement a Python API for additional command execution and data retrieval.
-            %\newpage
-            \vspace{-1mm}
-            \item Utilize web sockets for real-time communication and updates between the client and server.
-            \vspace{-1mm}
-            \item Ensure the Python API integrates seamlessly with the existing system.
-            \vspace{-1mm}
-            \item Provide detailed documentation and examples for using the Python API.
-        \end{itemize}
+
 
 %%%%%%%%%
 
@@ -154,7 +137,7 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
         \end{itemize}
 \end{enumerate}
 
-
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \section{Used Tools and Frameworks} % + state reason behind using them
 A comprehensive robot control system is implemented using a combination of front-end  and back-end  technologies. The front-end \footnote{Full code implementation can be viewed at: \url{https://github.com/meh-land/web\_App}} is developed with React.js and TypeScript, utilizing libraries such as React Router DOM, Axios, React Flow, and various hooks (\texttt{useState}, \texttt{useContext}, and \texttt{useEffect}). The back end is built with Laravel\footnote{Full code implementation can be viewed at: \url{https://shorturl.at/VdtOP}, \url{https://shorturl.at/6a0cM}}, while Python scripts are executed to perform specific tasks. This document details the frameworks and libraries used, the reasons behind their selection, and their roles in the overall system.
@@ -163,7 +146,7 @@ A comprehensive robot control system is implemented using a combination of front
 \subsubsection{A) React.js and TypeScript}
 
 \textbf{React.js} is a popular JavaScript library for building user interfaces, particularly single-page applications (SPAs). It allows developers to create reusable UI components, making the development process more efficient and manageable \cite{reactjs}. 
-\newpage
+
 \textbf{TypeScript} is a superset of JavaScript that adds static type definitions, enabling developers to catch errors early in the development process and improve code maintainability and readability \cite{reactTS}.
 
 
@@ -213,12 +196,12 @@ A comprehensive robot control system is implemented using a combination of front
     Once React Router DOM have been installed, import the needed components for the demo inside App.js/.tsx. Then add the following code snippets:
 
     \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= React Router Dom Implementation (1), label=cd:socket.io-client, firstline=1, lastline=10]{CodeSnippets/ReactRouterDom.tsx}
-    \newpage
+
     \lstinputlisting[language=JavaScript, style=CodeStyleJavaScript, caption= React Router Dom Implementation (2), label=cd:socket.io-client2, firstline=11, lastline=24]{CodeSnippets/ReactRouterDom.tsx}
     
 \end{itemize}
 
-\vspace{-5mm}
+\newpage
 
 \subsubsection*{C) Axios}
 
@@ -324,16 +307,15 @@ The following steps demonstrate how to use Flask and Socket.IO to monitor file c
     \item \textbf{Usage}: React Flow is utilized to design and visualize the path of the robot. It allows users to create, modify, and monitor the robot's movement through an intuitive graphical interface. To install reactflow, you can use the following
 npm command:
 
-\vspace{-2mm}
+\newpage
             \begin{verbatim}
     npm install reactflow
     \end{verbatim}
-    %\vspace{-3mm}
-    \newpage
+    \vspace{-3mm}
     Once you have installed reactflow, you can use it as follows:
 \vspace{2mm}
     \lstinputlisting[language=python, style=CodeStylePython, caption= React Flow Implementation.
-    , label=cd:socket.io-client, firstline=1, lastline=37]{CodeSnippets/reactflow.tsx}
+    , label=cd:socket.io-client, firstline=1, lastline=35]{CodeSnippets/reactflow.tsx}
 \end{itemize}
 
 \newpage
@@ -398,35 +380,7 @@ The hooks mentioned above are employed to manage the application's state, handle
 \end{itemize}
 
 
-\subsubsection*{B) Python API (Flask)}
-
-\textbf{Flask} is a micro web framework written in Python. It is designed to be simple and flexible, allowing developers to build web applications quickly and with minimal overhead. Flask provides the essentials needed to get a web server up and running but leaves many decisions about architecture and additional features up to the developer. This makes it a popular choice for both small applications and large-scale projects \cite{flask-quickstart}.
-
-\begin{itemize}
-\item \textbf{Usage}: Flask in this code serves as the foundation for creating a web server that can handle HTTP requests and integrate with SocketIO for real-time communication. It provides the necessary infrastructure to serve web pages and handle client connections, while the SocketIO integration allows for dynamic updates based on file changes detected by the watchdog observers. 
-
-
-\newpage
-\item \textbf{Commands}:
-    \begin{itemize}
-        \item \textbf{Install Flask and Flask-SocketIO}:
-        \begin{verbatim}
-        pip install flask flask-socketio
-        \end{verbatim}
-        \vspace{-2mm}
-        \item \textbf{Install Watchdog} (for file system monitoring):
-        \begin{verbatim}
-        pip install watchdog
-        \end{verbatim}
-        
-
-    \end{itemize}
-
-\end{itemize}
-
-\vspace{-3mm}
-
-\subsubsection*{C) ROS (rospy) Scripts}
+\subsubsection*{B) ROS (rospy) Scripts}
 
 \textbf{Python} is a versatile programming language known for its simplicity and extensive library support. It is widely used in robotics for tasks such as data processing, machine learning, and control algorithms. In this context, \textbf{rospy} is the Python client library for ROS (Robot Operating System), which facilitates communication and coordination between various components in a robotic system.
 
@@ -441,7 +395,7 @@ The combination of React.js, TypeScript, React Router DOM, Axios, React Flow, an
 \section{Design and Development Strategy}
 
 The Robot Control System Web Application is designed to provide an intuitive and efficient interface for controlling and monitoring robots in various environments. This project aims to leverage modern web technologies to create a versatile platform that can be accessed from any device with internet connectivity.
-\newpage
+
 \subsection{System Architecture}
 \vspace{-1.5mm}
 The system architecture follows the Model-View-Controller (MVC) concept to ensure a clear separation of concerns and maintainability.
@@ -463,7 +417,7 @@ The client-side application is developed using React.js, a popular JavaScript li
         \item \textbf{Tasks Management}: A feature to assign, monitor, and manage tasks for the robots.
     \end{itemize}
 \end{itemize}
-\vspace{-3mm}
+\newpage
 \subsubsection{B) Server-Side Application}
 \vspace{-2.5mm}
 The server-side application will handle communication between the client-side application and the robots, manage user authentication, and store data. Key components include:
@@ -504,10 +458,10 @@ By adhering to the MVC architecture, the system ensures a structured and scalabl
 The user interface (UI) design will prioritize ease of use, clarity, and accessibility. It will follow a modular design approach, with reusable components for different parts of the application.
 \vspace{-1.5mm}
 % In the appendix, you can find more details on our website (see Appendix~\ref{webapp}).
-
+\newpage
 \subsubsection{A) Dashboard}
 \vspace{-1mm}
-The dashboard will provide an overview of connected robot, displaying its current status, location, and speed. Users can quickly select a robot to view more detailed information or take control.
+The dashboard will provide an overview of connected robot, displaying its current location. Users can quickly select a robot to view more detailed information or take control.
 \vspace{-1mm}
 \subsubsection{B) Control Panel}
 \vspace{-1mm}
@@ -516,7 +470,7 @@ The control panel will offer an intuitive layout for sending commands to the sel
 \subsubsection{C) Maps Creation}
 \vspace{-1mm}
 Tools for creating and managing maps or paths that robots can follow. This includes the ability to define way points, set navigation routes, and visualize the paths in a user-friendly manner.
-\newpage
+
 \subsubsection{D) Tasks Management}
 \vspace{-1mm}
  Functionality for creating, scheduling, and assigning tasks to robots. This includes setting task priorities, monitoring task progress, and receiving notifications upon task completion or failure.
@@ -531,7 +485,7 @@ The implementation of the Robot Control System Web Application follows an iterat
 
 \end{enumerate}
 
-
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Output} % + state which of the listed specs were fulfilled here
@@ -540,28 +494,28 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[scale=0.35]{Figures/WebApp/HomePage.png}
+    \includegraphics[scale=0.35]{./Figures/WebApp/HomePage.png}
     \caption{Home page}
     \label{fig:homePage}
 \end{figure}
-\newpage
+
 \subsection{Robots Management}
 
     The robots management dashboard---shown in figure \ref{fig:robots-dashboard}---provides a comprehensive view of all robots. It includes a table displaying the robots and offers options to add new robots, edit existing robot details, or delete robots from the system.
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.31]{Figures/WebApp/Robots.png}
+        \includegraphics[scale=0.31]{./Figures/WebApp/Robots.png}
         \caption{Robots management dashboard}
         \label{fig:robots-dashboard}
     \end{figure}
 
-
+\newpage
     Figure \ref{fig:create-robot} shows a popup form used for adding new robots to the management system. Users are prompted to enter the robot's name and IP address.
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.31]{Figures/WebApp/createRobot.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/createRobot.png}
         \caption{Creating new robot}
         \label{fig:create-robot}
     \end{figure}
@@ -570,7 +524,7 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.31]{Figures/WebApp/editRobot.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/editRobot.png}
         \caption{Editing robot}
         \label{fig:edit-robot}
     \end{figure}
@@ -583,7 +537,7 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.4]{Figures/WebApp/mapsCreation.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/mapsCreation.png}
         \caption{Maps management dashboard}
         \label{fig:maps-management}
     \end{figure}
@@ -595,7 +549,7 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.4]{Figures/WebApp/newMap.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/newMap.png}
         \caption{Node map editor}
         \label{fig:node-map-editor}
     \end{figure}
@@ -606,7 +560,7 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.4]{Figures/WebApp/editNode.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/editNode.png}
         \caption{Updating node information.}
         \label{fig:edit-node}
     \end{figure}
@@ -616,7 +570,7 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.4]{Figures/WebApp/editMap.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/editMap.png}
         \caption{Edit map}
         \label{fig:edit-map}
     \end{figure}
@@ -629,7 +583,7 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
      The tasks management dashboard (figure \ref{fig:tasks-management}) shows an empty state when no tasks have been added. An illustration and a message prompt users to add new tasks, with a button provided for this purpose.
      \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.4]{Figures/WebApp/tasks.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/tasks.png}
         \caption{Tasks management dashboard}
         \label{fig:tasks-management}
     \end{figure}
@@ -637,9 +591,23 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
     The popup form in the tasks management dashboard---shown in figure \ref{fig:task-creation}---allows users to enter task information. Users can input details such as the task name, select a map, and specify pick-up and drop-off nodes along with the schedule time. Options to close or save the task are included.
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale=0.4]{Figures/WebApp/taskCreation.png}
+        \includegraphics[scale=0.4]{./Figures/WebApp/taskCreation.png}
         \caption{New task creation}
         \label{fig:task-creation}
+    \end{figure}
+    
+    
+    \newpage
+    
+    \subsection{Dashboard}
+    
+    The dashboard (figure \ref{fig:dashboard}) designed for controlling robots as well as viewing camera streaming for monitoring current position.
+    
+    \begin{figure}[h!]
+    	\centering
+    	\includegraphics[scale=0.3]{./Figures/WebApp/Dashboard.jpeg}
+    	\caption{Robot Dashboard}
+    	\label{fig:dashboard}
     \end{figure}
 
 
@@ -648,9 +616,11 @@ The dashboard for managing robots, featuring sections for Robots, Maps, and Task
 \newpage
 
 \chapter{Server Infrastructure}
+
+\section{Introdution}
 In this chapter, the proposed user service node model will be thoroughly examined---from the perspective of the server infrastructure; along with the development objectives in mind to achieve the desired performance and acceptable user experience.
 
-\section{Development Objectives: Overview}
+\section{Development Objectives}
 Among the development objectives stated in chapter~\ref{ch:1}, two in particular can be classified to be related to the user service node; one was discussed in chapter~\ref{ch:5} and the other will be the main focus in this chapter: Reliable Server Infrastructure. Making a reliable server infrastructure can be dissected into multiple sub-objectives as follows:
 \begin{enumerate}
     \item Creating a reliable server machine on which the web app can run.
@@ -667,6 +637,8 @@ Among the development objectives stated in chapter~\ref{ch:1}, two in particular
 The server uses Ubuntu 20.04 LTS as its operating system, this is done to offer compatibility with ROS Noetic as mentioned in chapter \ref{ch:CPN-comm}. As it stands, the system does not run any ROS nodes on the server, but it could be useful for future improvements to have a high degree of compatibility between the server and the SBC.
 
 Once the operating system is installed on the server, one must install all the packages required by the web app to operate correctly. Here is only a list of these packages and the utility of each one, the details of installation will be discussed in chapter \ref{ch:res-conc}.
+
+\newpage
 \subsection{Web Application Dependencies}
 Here is a list of all the dependencies needed for the correct and reliable operation of the web application. Note that the packages here are mentioned along their version numbers, this is to ensure the reliability of the setup. In other words, these versions are not strictly necessary but these are the only tested versions. Thus they are guaranteed to work coherently.
 
@@ -684,6 +656,7 @@ Here is a list of all the dependencies needed for the correct and reliable opera
 By default Ubuntu 20.04 uses the Uncomplicated Firewall (UFW)\cite{ubuntu-ufw}, which by default blocks all ports on the host. For the web application to be accessible, UFW needs to be configured in such a way that it allows the appropriate ports. The front-end runs on port 3000 and the back-end runs on port 8000. Thus, ports 3000 and 8000 need to be exposed to the external network. The bash script shown in code snippet \ref{cd:ufw} shows the commands needed to expose the needed ports and refresh UFW in order to make sure that UFW loads the most up-to-date configurations. Note script \ref{cd:ufw} needs sudo privilege to execute correctly.
 
 \lstinputlisting[language=Bash, style=CodeStyleBash, caption=Configure UFW to allow ports, label=cd:ufw]{CodeSnippets/ufwconfig}
+
 
 
 % \begin{figure}[h!]

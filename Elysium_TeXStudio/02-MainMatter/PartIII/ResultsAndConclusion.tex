@@ -1,6 +1,7 @@
 \part{Results \& Conclusion}
-\chapter{Setup For A Test Run}
+\chapter{System Operation}
 \label{ch:res-conc}
+\section{Introduction}
 This chapter assumes that the user already has a working server with Ubuntu 20.04 LTS installed on it. The goal is to setup this server in a way that replicates our environment.
 \section{Step 1: Install Dependencies on Server}
 Code snippet \ref{cd:ss-gen-dep} shows the commands needed to make sure that the server is up-to-date and has some basic dependencies installed.
@@ -12,6 +13,7 @@ Code snippet \ref{cd:ss-apache} installs the apache web server, and uses systemd
 \lstinputlisting[language=Bash, style=CodeStyleBash, caption=Install Apache web server, label=cd:ss-apache, firstline=11, lastline=15]{./CodeSnippets/waip1.sh}
 
 Code snippet \ref{cd:ss-mysql} shows the commands needed to install the mysql-server package and the command needed to set it up in a secure manner. Note that the second command will need some user input to complete, mainly setting up configurations in a way that is suitable for your specific use-case and setup.
+\newpage
 %MySQL
 \lstinputlisting[language=Bash, style=CodeStyleBash, caption=Install and setup MySQL, label=cd:ss-mysql, firstline=19, lastline=20]{./CodeSnippets/waip1.sh}
 
@@ -24,7 +26,9 @@ We need to use PHP version 8.1.0 which is not readily available for Ubuntu 20.04
 	\item Add PHP to the PATH environment variable to make sure the executable file is visible system-wide. This step is repeated every time we use an interactive shell, so we add it to the user's .bashrc file.
 \end{enumerate}
 % PHP
-\lstinputlisting[language=Bash, style=CodeStyleBash, caption=Install and setup PHP, label=cd:ss-php, firstline=24, lastline=39]{./CodeSnippets/waip1.sh}
+\lstinputlisting[language=Bash, style=CodeStyleBash, caption=Install and setup PHP, label=cd:ss-php, firstline=24, lastline=35]{./CodeSnippets/waip1.sh}
+
+\newpage
 
 Code snippet \ref{cd:ss-composer} shows the process of installing composer by downloading its official installation script and piping it into php.
 % Composer
@@ -42,7 +46,12 @@ The first command in code snippet \ref{cd:ss-mysql-user} is entered into bash to
 % MySQL user
 \lstinputlisting[language=Bash, style=CodeStyleBash, caption=Setup MySQL user, label=cd:ss-mysql-user, firstline=68, lastline=72]{./CodeSnippets/waip1.sh}
 
-Now that all web application dependencies have been installed, one can start downloading the source code for the web application's back-end as shown in code snippet \ref{cd:ss-inst-back}. This is done by cloning the project's Gihub repository. Subsequently, one must install all application libraries using composer.
+Now that all web application dependencies have been installed, one can start downloading the source code for the web application's back-end as shown in code snippet \ref{cd:ss-inst-back}. 
+
+
+\newpage
+
+This is done by cloning the project's Gihub repository. Subsequently, one must install all application libraries using composer.
 
 Then, we should create a new .env file which contains data that is user-specific and should not be uploaded to any public repository. To help the user crete this .env file, we have included a .env.example file which contains a list of the needed variables, and some of these variables have default values set for ease of use, of course the user is free to substitute these default values with values that fit their specific setup. In the .env.example there are some variables that have no default value, this is because they are entirely user and machine dependent.
 
@@ -71,6 +80,8 @@ Note that there is no need to install MySQL on the SBC because it is not used.
 
 \subsubsection{Setup for ROS scripts}
 To install ROS Noetic there are many steps that need to be followed, but our environment is fairly standard, so there is a simple script that can be used to setup ROS Noetic on the SBC. The commands shown in code snippet \ref{cd:sbc-inst-ros} are the commands needed to download the script, make it executable and run it. By the end of its execution the SBC should have ROS Noetic ready. 
+
+\newpage
 \lstinputlisting[language=Bash, style=CodeStyleBash, caption=Install ROS Noetic, label=cd:sbc-inst-ros]{./CodeSnippets/install-ros}
 
 Now that ROS Noetic is installed, one needs to download the ROS scripts from their Github Repositories. The commands shown in code snippet \ref{cd:sbc-get-ros-web-scripts} shows the commands needed to get and setup the ROS scripts that specialize in high level control and web interactions.
@@ -122,6 +133,8 @@ If the setup was done correctly, the web application should be accessible from a
 	\label{fig:sign-in}
 \end{figure}
 
+\newpage
+
 Once logged in, the user can use the home screen shown in figure \ref{fig:homePage} to navigate the web application. The typical use-case is that the user wants to create a task and assign it to a robot.
 
 First the user must define the map in which the task will take place.Using the screen shown in figure \ref{fig:maps-management}, the user may create a new map or view predefined maps. If the user wishes to create a new map or edit a pre-existing one, they can use the map editor shown in figure \ref{fig:node-map-editor}.
@@ -131,18 +144,36 @@ Once the map is to the user's satisfaction, they can move on to task creation us
 Now that the the task is properly defined, the last step is to assign this task to a robot. The robots management window is shown in figure \ref{fig:robots-dashboard}, using this page the user can create a new robot as shown in figure \ref{fig:create-robot}, or edit a pre-existing robot. Editing a robot is the way in which the user can assign a task to a robot.
 \newpage
 
-\chapter{Future Work \& Recommendations}
+\chapter{Conclusion \& Future Work}
 
+\section{Observing The Final Version}
 
-\section{Introduction}
-Although the project has fulfilled most if not all of its goals, there exists many areas that can be improved and/or built upon to achieve an even greater outcome. In this chapter, possible improvement ideas will be discussed in addition to recommendations for anyone willing to pick the project up where it was left off.
-\section{Areas For Improvements}
+Although the project has fulfilled most if not all of its goals, there exists many areas that can be improved and/or built upon to achieve an even greater outcome. Possible improvement ideas will be discussed in addition to recommendations for anyone willing to pick the project up where it was left off.
+
+The proposed system proved to both be a success and come short in many areas. The project has succeeded in accomplishing most of the listed development objectives. However, the following points were not fully fulfilled or did not work as desired:
+\begin{itemize}
+	\item The mechanical chassis \& arm have limited weight tolerance due to the team's inexperience in mechanical design.
+	\item The array of sensors used could have used a few additions like a LiDAR.
+	\item The used software platform for MCU programming did not make full use of its capabilities: if the STM32 was programmed using embedded C/C++ and ran a real-time operating system it would have given a better performance.
+	\item The VLC prototype is promising, but it needs to be built upon to produce a reliable product.
+	\item The used stereo camera was not utilized to its full features: it is capable of depth mapping and object detection and, ultimately, could have been used in localization. It was only used for streaming in this implementation.
+	\item The static map design is not always applicable. Maps tend to be more dynamic in real life.
+	\item The server being a virtual machine is not portable, and a bit clunky to manage.
+	\item The web application could have been developed using a framework that leverages server-side rendering with better performance than the one used.
+\end{itemize} 
+
+\newpage
+
+\section{Future Improvements}
 There are many areas to improve in each layer of the robot. It can be summarized as follows:
 \begin{enumerate}
-    \item Using a real-time operating system on all microcontrollers in order for the system to meet real-time demands.
+	\item Designing a better and stronger chassis equipped with a better arm.
+	\item Equip the robot with a LiDAR sensor for better dynamic environment mapping.
     \item Programming all microcontrollers in embedded C/C++ and abandoning Arduino platform for a better performing system.
+    \item Using a real-time operating system on all microcontrollers in order for the system to meet real-time demands.
     \item Using MicroROS---which is built on the newer architecture of ROS 2---instead of ROS 1 for a more coherent and future-proof system.
     \item Developing an embedded Linux image for the single board computer for minimum system overhead.
+    \item Utilize the used stereo camera to improve localization.
     \item Containerizing the web application using Docker/Docker-Compose for more portability.
-    \item To enhance the web application, we should refactor our current React, Laravel, and Python components to a Next.js framework, leveraging its server-side rendering capabilities for improved performance and SEO.
+    \item To enhance the web application, we should refactor our current React and Laravel components to a Next.js framework, leveraging its server-side rendering capabilities for improved performance and SEO.
 \end{enumerate}

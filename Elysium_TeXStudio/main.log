@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  29 JUN 2024 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  2 JUL 2024 04:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,9 +1096,6 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 (IdidItForTheMemes.tex)) (main.aux
 
-LaTeX Warning: Label `fig:sysarch' multiply defined.
-
-
 LaTeX Warning: Label `cd:socket.io-client' multiply defined.
 
 
@@ -1134,62 +1131,62 @@ LaTeX Warning: Label `cd:socket.io-client' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 21.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 22.
 LaTeX Font Info:    Trying to load font information for OML+npxmi on input line
- 21.
+ 22.
  (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/newpx\omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for U+npxexa on input line 
-21.
+22.
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/newpx\unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line
- 21.
+ 22.
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/newpx\lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for LMX+npxexx on input lin
-e 21.
+e 22.
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/newpx\lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 21.
-Package scrbase Info: activating english \abstractname on input line 21.
-Package scrbase Info: activating english \partname on input line 21.
-Package scrbase Info: activating english \chaptername on input line 21.
-Package scrbase Info: activating english \appendixname on input line 21.
-Package scrbase Info: activating english \figurename on input line 21.
-Package scrbase Info: activating english \tablename on input line 21.
-Package scrbase Info: activating english \contentsname on input line 21.
-Package scrbase Info: activating english \listfigurename on input line 21.
-Package scrbase Info: activating english \listtablename on input line 21.
-Package scrbase Info: activating english \bibname on input line 21.
-Package scrbase Info: activating english \indexname on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
+Package scrbase Info: activating english \abstractname on input line 22.
+Package scrbase Info: activating english \partname on input line 22.
+Package scrbase Info: activating english \chaptername on input line 22.
+Package scrbase Info: activating english \appendixname on input line 22.
+Package scrbase Info: activating english \figurename on input line 22.
+Package scrbase Info: activating english \tablename on input line 22.
+Package scrbase Info: activating english \contentsname on input line 22.
+Package scrbase Info: activating english \listfigurename on input line 22.
+Package scrbase Info: activating english \listtablename on input line 22.
+Package scrbase Info: activating english \bibname on input line 22.
+Package scrbase Info: activating english \indexname on input line 22.
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1216,8 +1213,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Command `\dddot' is already robust on input line 21.
-LaTeX Info: Command `\ddddot' is already robust on input line 21.
+LaTeX Info: Command `\dddot' is already robust on input line 22.
+LaTeX Info: Command `\ddddot' is already robust on input line 22.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1228,22 +1225,22 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 21.
-Package microtype Info: Applying patch `item' on input line 21.
-Package microtype Info: Applying patch `toc' on input line 21.
-Package microtype Info: Applying patch `eqnum' on input line 21.
+LaTeX Info: Redefining \microtypecontext on input line 22.
+Package microtype Info: Applying patch `item' on input line 22.
+Package microtype Info: Applying patch `toc' on input line 22.
+Package microtype Info: Applying patch `eqnum' on input line 22.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 21.
+Package microtype Warning: Unable to apply patch `footnote' on input line 22.
 
-Package microtype Info: Applying patch `verbatim' on input line 21.
+Package microtype Info: Applying patch `verbatim' on input line 22.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 21.
+LaTeX Info: Redefining \showhyphens on input line 22.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1251,9 +1248,9 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 \c@lstlisting=\count349
-Package tocbasic Info: setting babel extension for `lol' on input line 21.
+Package tocbasic Info: setting babel extension for `lol' on input line 22.
 \scr@dte@lstlisting@maxnumwidth=\skip82
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 22.
 
 (main.out) (main.out)
 \@outlinefile=\write3
@@ -1266,7 +1263,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 21.
+(scrreprt)           before \begin{document} on input line 22.
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1387,7 +1384,7 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 {C:/Users/Ahmed/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ahme
 d/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}{C:/User
 s/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}]) (
-01-FrontMatter/abstract.tex
+01-FrontMatter/acknowledgement.tex
 
 [2
 
@@ -1439,7 +1436,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 [4
 
 
-] (01-FrontMatter/acknowledgement.tex)
+] (01-FrontMatter/abstract.tex)
 
 [5
 
@@ -1454,32 +1451,35 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 1.
 
  (main.toc
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 6.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 9.
+
+Underfull \vbox (badness 1783) has occurred while \output is active []
+
 
 
 [7
 
 
 {C:/Users/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [8]
-Underfull \vbox (badness 1038) has occurred while \output is active []
-
-
 
 [9]
-Overfull \hbox (0.66791pt too wide) detected at line 146
- [][][]\T1/zpltlf/m/n/10.95 B10[][]
+Overfull \hbox (1.741pt too wide) detected at line 143
+ [][][]\T1/zpltlf/m/n/10.95 C10[][]
  []
 
 
-Overfull \hbox (0.66791pt too wide) detected at line 147
- [][][]\T1/zpltlf/m/n/10.95 B10[][]
+Overfull \hbox (1.741pt too wide) detected at line 144
+ [][][]\T1/zpltlf/m/n/10.95 C10[][]
  []
 
 
-Overfull \hbox (0.66791pt too wide) detected at line 148
- [][][]\T1/zpltlf/m/n/10.95 B10[][]
+Overfull \hbox (1.741pt too wide) detected at line 145
+ [][][]\T1/zpltlf/m/n/10.95 C10[][]
  []
 
 )
@@ -1508,76 +1508,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 
-[12] (01-FrontMatter/listoftables.tex
-Package tocbasic Info: character protrusion at lot deactivated on input line 1.
+[12] (01-FrontMatter/listoflistings.tex
+Package tocbasic Info: character protrusion at lol deactivated on input line 1.
 
- (main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
-)
+ (main.lol
 
 [13
 
 
 
 
-]
-
-[14
-
-
-] (01-FrontMatter/listoflistings.tex
-Package tocbasic Info: character protrusion at lol deactivated on input line 1.
-
- (main.lol
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[15
-
-
 ])
-\tf@lol=\write7
-\openout7 = `main.lol'.
+\tf@lol=\write6
+\openout6 = `main.lol'.
 
 )
 
-[16] (01-FrontMatter/nomenclature.tex
-LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
-(Font)              scaled to size 10.95pt on input line 4.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 6.
-)
-
-[17
-
-
-
-
-]
-
-[18
-
-
-]) (MainMatter.tex (02-MainMatter/PartI/ProjectOverview.tex
-part I.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 8.
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 60.0pt on input line 8.
-
-
-[1
-
-
-]
-
-[2]
+[14]) (MainMatter.tex (02-MainMatter/PartI/ProjectOverview.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
 (Font)              scaled to size 60.0pt on input line 10.
@@ -1586,34 +1533,33 @@ Overfull \hbox (10.94998pt too wide) in paragraph at lines 10--10
 [][][][][][][][] 
  []
 
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 12.
 LaTeX Font Info:    Trying to load font information for TS1+zpltlf on input lin
-e 17.
+e 18.
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/newpx\ts1zpltlf.fd
 File: ts1zpltlf.fd 2021/11/24 v1.0 fd file for TS1/zpltlf
 )
 LaTeX Font Info:    Font shape `TS1/zpltlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 17.
+(Font)              scaled to size 10.95pt on input line 18.
 
 
-[3
+[1
+
+
 
 
 {C:/Users/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/zpl_TOsF.en
 c}]
-Overfull \hbox (5.12111pt too wide) in paragraph at lines 40--41
+Overfull \hbox (5.12111pt too wide) in paragraph at lines 50--51
 []\T1/zpltlf/m/n/10.95 (-20) Possess 3 De-grees of Free-dom (DOF) to re-li-ably
  tra-verse geometrically-challenging
  []
 
-<./Figures/Intro/Capture.PNG, id=833, 979.40906pt x 593.96906pt>
-File: ./Figures/Intro/Capture.PNG Graphic file (type png)
-<use ./Figures/Intro/Capture.PNG>
-Package pdftex.def Info: ./Figures/Intro/Capture.PNG  used on input line 68.
-(pdftex.def)             Requested size: 293.82498pt x 178.1921pt.
+
+
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 69.
-
-
+(Font)              scaled to size 9.0pt on input line 73.
 
 Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                At least 114.34296pt needed,
@@ -1623,32 +1569,41 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{114.34296pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 72
+(scrlayer-scrpage)                I'll also increase \footskip on input line 73
 .
 
-[4]
-<./Figures/Intro/Capture2.PNG, id=843, 994.46532pt x 466.74374pt>
-File: ./Figures/Intro/Capture2.PNG Graphic file (type png)
-<use ./Figures/Intro/Capture2.PNG>
-Package pdftex.def Info: ./Figures/Intro/Capture2.PNG  used on input line 78.
-(pdftex.def)             Requested size: 298.34189pt x 140.0242pt.
+[2]
+<./Figures/sysarch.PNG, id=876, 618.81187pt x 359.09157pt>
+File: ./Figures/sysarch.PNG Graphic file (type png)
+<use ./Figures/sysarch.PNG>
+Package pdftex.def Info: ./Figures/sysarch.PNG  used on input line 79.
+(pdftex.def)             Requested size: 433.16536pt x 251.36238pt.
+
+Overfull \hbox (6.37401pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
 ) (02-MainMatter/PartII/Chapter01.tex
 
-[5 <./Figures/Intro/Capture.PNG> <./Figures/Intro/Capture2.PNG>]
+[3 <./Figures/sysarch.PNG>]
 
-[6
+[4
 
 
 ]
-part II.
+part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 60.0pt on input line 1.
 
 
-[7]
+[5]
 
-[8]
+[6]
 chapter 2.
 
 Overfull \hbox (10.94998pt too wide) in paragraph at lines 3--3
@@ -1659,43 +1614,42 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 14.
 
 
-[9
+[7
 
 
 ]
 
-[10]
+[8]
 
-[11]
-<./Figures/Mech/full.jpeg, id=875, 1606.0pt x 1220.56pt>
+[9]
+
+[10]
+<./Figures/Mech/full.jpeg, id=912, 575.14874pt x 506.6428pt>
 File: ./Figures/Mech/full.jpeg Graphic file (type jpg)
 <use ./Figures/Mech/full.jpeg>
-Package pdftex.def Info: ./Figures/Mech/full.jpeg  used on input line 142.
-(pdftex.def)             Requested size: 369.37224pt x 280.72289pt.
-
-
-[12]
-<./Figures/Mech/lower.jpeg, id=880, 1606.0pt x 1220.56pt>
+Package pdftex.def Info: ./Figures/Mech/full.jpeg  used on input line 147.
+(pdftex.def)             Requested size: 132.28142pt x 116.52539pt.
+<./Figures/Mech/lower.jpeg, id=913, 496.85625pt x 639.13782pt>
 File: ./Figures/Mech/lower.jpeg Graphic file (type jpg)
 <use ./Figures/Mech/lower.jpeg>
-Package pdftex.def Info: ./Figures/Mech/lower.jpeg  used on input line 149.
-(pdftex.def)             Requested size: 369.37224pt x 280.72289pt.
+Package pdftex.def Info: ./Figures/Mech/lower.jpeg  used on input line 154.
+(pdftex.def)             Requested size: 114.27452pt x 146.9986pt.
 
 
-[13 <./Figures/Mech/full.jpeg> <./Figures/Mech/lower.jpeg>]
-<./Figures/Mech/side.jpeg, id=886, 1196.47pt x 787.94376pt>
+[11 <./Figures/Mech/full.jpeg> <./Figures/Mech/lower.jpeg>]
+<./Figures/Mech/side.jpeg, id=919, 1196.47pt x 787.94376pt>
 File: ./Figures/Mech/side.jpeg Graphic file (type jpg)
 <use ./Figures/Mech/side.jpeg>
-Package pdftex.def Info: ./Figures/Mech/side.jpeg  used on input line 156.
+Package pdftex.def Info: ./Figures/Mech/side.jpeg  used on input line 161.
 (pdftex.def)             Requested size: 382.87822pt x 252.14716pt.
-<./Figures/Mech/bacc.jpeg, id=887, 1162.3425pt x 789.95125pt>
+<./Figures/Mech/bacc.jpeg, id=920, 1162.3425pt x 789.95125pt>
 File: ./Figures/Mech/bacc.jpeg Graphic file (type jpg)
 <use ./Figures/Mech/bacc.jpeg>
-Package pdftex.def Info: ./Figures/Mech/bacc.jpeg  used on input line 163.
+Package pdftex.def Info: ./Figures/Mech/bacc.jpeg  used on input line 168.
 (pdftex.def)             Requested size: 371.9572pt x 252.78955pt.
 
 
-[14 <./Figures/Mech/side.jpeg> <./Figures/Mech/bacc.jpeg>])
+[12 <./Figures/Mech/side.jpeg> <./Figures/Mech/bacc.jpeg>])
 (02-MainMatter/PartII/Chapter02.tex
 chapter 3.
 
@@ -1705,223 +1659,230 @@ Overfull \hbox (10.94998pt too wide) in paragraph at lines 2--2
 
 
 
-[15
+[13
 
 
 ]
-<./Figures/HW/powerDiagram-drawio.png, id=897, 584.1825pt x 164.615pt>
+<./Figures/HW/powerDiagram-drawio.png, id=930, 584.1825pt x 164.615pt>
 File: ./Figures/HW/powerDiagram-drawio.png Graphic file (type png)
 <use ./Figures/HW/powerDiagram-drawio.png>
 Package pdftex.def Info: ./Figures/HW/powerDiagram-drawio.png  used on input li
-ne 30.
+ne 32.
 (pdftex.def)             Requested size: 292.09053pt x 82.3073pt.
 
 
-[16{C:/Users/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.e
+[14{C:/Users/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/px-lms.e
 nc} <./Figures/HW/powerDiagram-drawio.png>]
-<./Figures/HW/cell-configs.png, id=913, 310.91156pt x 271.76532pt>
+<./Figures/HW/cell-configs.png, id=946, 310.91156pt x 271.76532pt>
 File: ./Figures/HW/cell-configs.png Graphic file (type png)
 <use ./Figures/HW/cell-configs.png>
-Package pdftex.def Info: ./Figures/HW/cell-configs.png  used on input line 73.
+Package pdftex.def Info: ./Figures/HW/cell-configs.png  used on input line 76.
 (pdftex.def)             Requested size: 155.45538pt x 135.88232pt.
-<./Figures/HW/BMS-drawing.png, id=915, 472.76625pt x 382.42876pt>
+
+
+[15 <./Figures/HW/cell-configs.png>]
+<./Figures/HW/BMS-drawing.png, id=955, 472.76625pt x 382.42876pt>
 File: ./Figures/HW/BMS-drawing.png Graphic file (type png)
 <use ./Figures/HW/BMS-drawing.png>
-Package pdftex.def Info: ./Figures/HW/BMS-drawing.png  used on input line 86.
+Package pdftex.def Info: ./Figures/HW/BMS-drawing.png  used on input line 94.
 (pdftex.def)             Requested size: 236.38254pt x 191.2139pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figures/HW/Voltage-Measurement.png, id=918, 375.65344pt x 359.84438pt>
+<./Figures/HW/Voltage-Measurement.png, id=958, 375.65344pt x 359.84438pt>
 File: ./Figures/HW/Voltage-Measurement.png Graphic file (type png)
 <use ./Figures/HW/Voltage-Measurement.png>
 Package pdftex.def Info: ./Figures/HW/Voltage-Measurement.png  used on input li
-ne 103.
-(pdftex.def)             Requested size: 187.82625pt x 179.92174pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ne 108.
+(pdftex.def)             Requested size: 244.17183pt x 233.89607pt.
 
 
-
-[17 <./Figures/HW/cell-configs.png>]
-<./Figures/HW/Current-Measurement.png, id=926, 560.8453pt x 316.18124pt>
+[16 <./Figures/HW/BMS-drawing.png> <./Figures/HW/Voltage-Measurement.png>]
+<./Figures/HW/Current-Measurement.png, id=966, 560.8453pt x 316.18124pt>
 File: ./Figures/HW/Current-Measurement.png Graphic file (type png)
 <use ./Figures/HW/Current-Measurement.png>
 Package pdftex.def Info: ./Figures/HW/Current-Measurement.png  used on input li
-ne 115.
-(pdftex.def)             Requested size: 280.42197pt x 158.09023pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[18 <./Figures/HW/BMS-drawing.png> <./Figures/HW/Voltage-Measurement.png>]
-<./Figures/HW/Improved-Current-Measurement.png, id=935, 466.74374pt x 307.90031
+ne 131.
+(pdftex.def)             Requested size: 224.33414pt x 126.47025pt.
+<./Figures/HW/Improved-Current-Measurement.png, id=968, 466.74374pt x 307.90031
 pt>
 File: ./Figures/HW/Improved-Current-Measurement.png Graphic file (type png)
 <use ./Figures/HW/Improved-Current-Measurement.png>
 Package pdftex.def Info: ./Figures/HW/Improved-Current-Measurement.png  used on
- input line 132.
+ input line 141.
 (pdftex.def)             Requested size: 233.37129pt x 153.94977pt.
-<./Figures/HW/Temperature-Measurement.png, id=936, 292.09125pt x 350.81062pt>
+
+
+[17 <./Figures/HW/Current-Measurement.png> <./Figures/HW/Improved-Current-Measu
+rement.png>]
+<./Figures/HW/Temperature-Measurement.png, id=976, 292.09125pt x 350.81062pt>
 File: ./Figures/HW/Temperature-Measurement.png Graphic file (type png)
 <use ./Figures/HW/Temperature-Measurement.png>
 Package pdftex.def Info: ./Figures/HW/Temperature-Measurement.png  used on inpu
-t line 141.
-(pdftex.def)             Requested size: 146.04526pt x 175.40488pt.
+t line 154.
+(pdftex.def)             Requested size: 189.85704pt x 228.02419pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-[19 <./Figures/HW/Current-Measurement.png> <./Figures/HW/Improved-Current-Measu
-rement.png>]
-<./Figures/HW/simulation-balance.png, id=950, 692.5875pt x 408.77719pt>
+[18 <./Figures/HW/Temperature-Measurement.png>]
+<./Figures/HW/simulation-balance.png, id=988, 692.5875pt x 408.77719pt>
 File: ./Figures/HW/simulation-balance.png Graphic file (type png)
 <use ./Figures/HW/simulation-balance.png>
 Package pdftex.def Info: ./Figures/HW/simulation-balance.png  used on input lin
-e 157.
-(pdftex.def)             Requested size: 277.03009pt x 163.50797pt.
-
-
-[20 <./Figures/HW/Temperature-Measurement.png> <./Figures/HW/simulation-balance
-.png>]
-<./Figures/HW/results-balance.png, id=957, 1027.58907pt x 443.40656pt>
+e 171.
+(pdftex.def)             Requested size: 346.2929pt x 204.38809pt.
+<./Figures/HW/results-balance.png, id=989, 1027.58907pt x 443.40656pt>
 File: ./Figures/HW/results-balance.png Graphic file (type png)
 <use ./Figures/HW/results-balance.png>
 Package pdftex.def Info: ./Figures/HW/results-balance.png  used on input line 1
-65.
-(pdftex.def)             Requested size: 308.2791pt x 133.02298pt.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 17
-1.
+78.
+(pdftex.def)             Requested size: 359.66156pt x 155.19461pt.
 
-(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
-File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)
-LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.29301pt on input line 171.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `qhv' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-<Figures/HW/schem-bms-1.png, id=958, 919.18407pt x 377.15906pt>
+
+[19 <./Figures/HW/simulation-balance.png> <./Figures/HW/results-balance.png>]
+<./Figures/HW/reverse-polarity.png, id=996, 385.44pt x 227.34938pt>
+File: ./Figures/HW/reverse-polarity.png Graphic file (type png)
+<use ./Figures/HW/reverse-polarity.png>
+Package pdftex.def Info: ./Figures/HW/reverse-polarity.png  used on input line 
+199.
+(pdftex.def)             Requested size: 231.26578pt x 136.41068pt.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 204.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 204.
+
+
+[20 <./Figures/HW/reverse-polarity.png>]
+<./Figures/HW/xl4016.png, id=1007, 481.8pt x 481.8pt>
+File: ./Figures/HW/xl4016.png Graphic file (type png)
+<use ./Figures/HW/xl4016.png>
+Package pdftex.def Info: ./Figures/HW/xl4016.png  used on input line 213.
+(pdftex.def)             Requested size: 240.8994pt x 240.8994pt.
+
+
+[21 <./Figures/HW/xl4016.png (PNG copy)>]
+<Figures/HW/schem-bms-1.png, id=1013, 919.18407pt x 377.15906pt>
 File: Figures/HW/schem-bms-1.png Graphic file (type png)
 <use Figures/HW/schem-bms-1.png>
-Package pdftex.def Info: Figures/HW/schem-bms-1.png  used on input line 174.
-(pdftex.def)             Requested size: 137.87166pt x 56.57141pt.
-<Figures/HW/schem-bms-2.png, id=959, 892.08281pt x 383.93437pt>
+Package pdftex.def Info: Figures/HW/schem-bms-1.png  used on input line 238.
+(pdftex.def)             Requested size: 367.66711pt x 150.86095pt.
+<Figures/HW/schem-bms-2.png, id=1014, 892.08281pt x 383.93437pt>
 File: Figures/HW/schem-bms-2.png Graphic file (type png)
 <use Figures/HW/schem-bms-2.png>
-Package pdftex.def Info: Figures/HW/schem-bms-2.png  used on input line 181.
-(pdftex.def)             Requested size: 133.80664pt x 57.58766pt.
-
-
-[21{C:/Users/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.
-enc} <./Figures/HW/results-balance.png> <./Figures/HW/schem-bms-1.png> <./Figur
-es/HW/schem-bms-2.png>]
-<Figures/HW/schem-pwr.png, id=970, 580.41844pt x 454.69875pt>
+Package pdftex.def Info: Figures/HW/schem-bms-2.png  used on input line 245.
+(pdftex.def)             Requested size: 356.8268pt x 153.57101pt.
+<Figures/HW/schem-pwr.png, id=1015, 580.41844pt x 454.69875pt>
 File: Figures/HW/schem-pwr.png Graphic file (type png)
 <use Figures/HW/schem-pwr.png>
-Package pdftex.def Info: Figures/HW/schem-pwr.png  used on input line 189.
-(pdftex.def)             Requested size: 58.04524pt x 45.47253pt.
-<Figures/HW/schem-sensi-1.png, id=971, 741.52031pt x 446.41782pt>
+Package pdftex.def Info: Figures/HW/schem-pwr.png  used on input line 252.
+(pdftex.def)             Requested size: 232.16325pt x 181.87627pt.
+
+
+[22 <./Figures/HW/schem-bms-1.png> <./Figures/HW/schem-bms-2.png> <./Figures/HW
+/schem-pwr.png>]
+<Figures/HW/schem-sensi-1.png, id=1023, 741.52031pt x 446.41782pt>
 File: Figures/HW/schem-sensi-1.png Graphic file (type png)
 <use Figures/HW/schem-sensi-1.png>
-Package pdftex.def Info: Figures/HW/schem-sensi-1.png  used on input line 197.
-(pdftex.def)             Requested size: 74.15637pt x 44.6444pt.
-<Figures/HW/schem-sensi-2.png, id=972, 740.0147pt x 223.58531pt>
+Package pdftex.def Info: Figures/HW/schem-sensi-1.png  used on input line 261.
+(pdftex.def)             Requested size: 296.60286pt x 178.56395pt.
+<Figures/HW/schem-sensi-2.png, id=1024, 740.0147pt x 223.58531pt>
 File: Figures/HW/schem-sensi-2.png Graphic file (type png)
 <use Figures/HW/schem-sensi-2.png>
-Package pdftex.def Info: Figures/HW/schem-sensi-2.png  used on input line 204.
-(pdftex.def)             Requested size: 74.0058pt x 22.35983pt.
-
-
-[22 <./Figures/HW/schem-pwr.png> <./Figures/HW/schem-sensi-1.png> <./Figures/HW
-/schem-sensi-2.png>]
-<Figures/HW/schem-actuators.png, id=984, 891.33pt x 448.67625pt>
+Package pdftex.def Info: Figures/HW/schem-sensi-2.png  used on input line 268.
+(pdftex.def)             Requested size: 296.00063pt x 89.43253pt.
+<Figures/HW/schem-actuators.png, id=1025, 891.33pt x 448.67625pt>
 File: Figures/HW/schem-actuators.png Graphic file (type png)
 <use Figures/HW/schem-actuators.png>
-Package pdftex.def Info: Figures/HW/schem-actuators.png  used on input line 212
+Package pdftex.def Info: Figures/HW/schem-actuators.png  used on input line 275
 .
-(pdftex.def)             Requested size: 89.13821pt x 44.87024pt.
-<Figures/HW/schem-motor-1.png, id=985, 909.3975pt x 402.00188pt>
+(pdftex.def)             Requested size: 356.52568pt x 179.46732pt.
+
+
+[23 <./Figures/HW/schem-sensi-1.png> <./Figures/HW/schem-sensi-2.png> <./Figure
+s/HW/schem-actuators.png>]
+<Figures/HW/schem-motor-1.png, id=1034, 909.3975pt x 402.00188pt>
 File: Figures/HW/schem-motor-1.png Graphic file (type png)
 <use Figures/HW/schem-motor-1.png>
-Package pdftex.def Info: Figures/HW/schem-motor-1.png  used on input line 220.
-(pdftex.def)             Requested size: 90.94507pt x 40.20253pt.
-<Figures/HW/schem-motor-2.png, id=986, 807.7678pt x 362.85562pt>
+Package pdftex.def Info: Figures/HW/schem-motor-1.png  used on input line 284.
+(pdftex.def)             Requested size: 363.75256pt x 160.7979pt.
+<Figures/HW/schem-motor-2.png, id=1035, 807.7678pt x 362.85562pt>
 File: Figures/HW/schem-motor-2.png Graphic file (type png)
 <use Figures/HW/schem-motor-2.png>
-Package pdftex.def Info: Figures/HW/schem-motor-2.png  used on input line 227.
-(pdftex.def)             Requested size: 80.78151pt x 36.28767pt.
+Package pdftex.def Info: Figures/HW/schem-motor-2.png  used on input line 291.
+(pdftex.def)             Requested size: 323.1014pt x 145.13968pt.
+<Figures/HW/schem-vlc.png, id=1036, 821.31844pt x 393.72093pt>
+File: Figures/HW/schem-vlc.png Graphic file (type png)
+<use Figures/HW/schem-vlc.png>
+Package pdftex.def Info: Figures/HW/schem-vlc.png  used on input line 299.
+(pdftex.def)             Requested size: 328.52155pt x 157.48558pt.
 
 
-[23 <./Figures/HW/schem-actuators.png> <./Figures/HW/schem-motor-1.png> <./Figu
-res/HW/schem-motor-2.png>]
-<Figures/HW/pcb-bms.png, id=998, 356.0803pt x 339.51843pt>
+[24 <./Figures/HW/schem-motor-1.png> <./Figures/HW/schem-motor-2.png> <./Figure
+s/HW/schem-vlc.png>]
+<Figures/HW/pcb-bms.png, id=1044, 356.0803pt x 339.51843pt>
 File: Figures/HW/pcb-bms.png Graphic file (type png)
 <use Figures/HW/pcb-bms.png>
-Package pdftex.def Info: Figures/HW/pcb-bms.png  used on input line 237.
-(pdftex.def)             Requested size: 35.6101pt x 33.95383pt.
-<Figures/HW/pcb-power.png, id=999, 350.81062pt x 335.75438pt>
+Package pdftex.def Info: Figures/HW/pcb-bms.png  used on input line 314.
+(pdftex.def)             Requested size: 284.86462pt x 271.6151pt.
+<Figures/HW/pcb-power.png, id=1045, 350.81062pt x 335.75438pt>
 File: Figures/HW/pcb-power.png Graphic file (type png)
 <use Figures/HW/pcb-power.png>
-Package pdftex.def Info: Figures/HW/pcb-power.png  used on input line 246.
-(pdftex.def)             Requested size: 35.08311pt x 33.5774pt.
+Package pdftex.def Info: Figures/HW/pcb-power.png  used on input line 323.
+(pdftex.def)             Requested size: 280.64886pt x 268.60387pt.
 
 
-[24 <./Figures/HW/pcb-bms.png> <./Figures/HW/pcb-power.png>]
-<Figures/HW/pcb-sensi-boi.png, id=1010, 364.36125pt x 351.56343pt>
+[25 <./Figures/HW/pcb-bms.png> <./Figures/HW/pcb-power.png>]
+<Figures/HW/pcb-sensi-boi.png, id=1052, 364.36125pt x 351.56343pt>
 File: Figures/HW/pcb-sensi-boi.png Graphic file (type png)
 <use Figures/HW/pcb-sensi-boi.png>
-Package pdftex.def Info: Figures/HW/pcb-sensi-boi.png  used on input line 255.
-(pdftex.def)             Requested size: 36.43825pt x 35.1584pt.
-<Figures/HW/pcb-actuator.png, id=1011, 374.14781pt x 362.10281pt>
+Package pdftex.def Info: Figures/HW/pcb-sensi-boi.png  used on input line 332.
+(pdftex.def)             Requested size: 291.48938pt x 281.25111pt.
+<Figures/HW/pcb-actuator.png, id=1053, 374.14781pt x 362.10281pt>
 File: Figures/HW/pcb-actuator.png Graphic file (type png)
 <use Figures/HW/pcb-actuator.png>
-Package pdftex.def Info: Figures/HW/pcb-actuator.png  used on input line 263.
-(pdftex.def)             Requested size: 37.41696pt x 36.21239pt.
+Package pdftex.def Info: Figures/HW/pcb-actuator.png  used on input line 340.
+(pdftex.def)             Requested size: 299.31863pt x 289.68263pt.
 
 
-[25 <./Figures/HW/pcb-sensi-boi.png> <./Figures/HW/pcb-actuator.png>]
-<Figures/HW/pcb-motor-mk-ii.png, id=1023, 576.65437pt x 408.02437pt>
+[26 <./Figures/HW/pcb-sensi-boi.png> <./Figures/HW/pcb-actuator.png>]
+<Figures/HW/pcb-motor-mk-ii.png, id=1060, 448.67625pt x 383.18156pt>
 File: Figures/HW/pcb-motor-mk-ii.png Graphic file (type png)
 <use Figures/HW/pcb-motor-mk-ii.png>
-Package pdftex.def Info: Figures/HW/pcb-motor-mk-ii.png  used on input line 271
+Package pdftex.def Info: Figures/HW/pcb-motor-mk-ii.png  used on input line 349
 .
-(pdftex.def)             Requested size: 57.66881pt x 40.80482pt.
+(pdftex.def)             Requested size: 358.94148pt x 306.54565pt.
+<Figures/HW/pcb-vlc.png, id=1061, 362.10281pt x 346.29375pt>
+File: Figures/HW/pcb-vlc.png Graphic file (type png)
+<use Figures/HW/pcb-vlc.png>
+Package pdftex.def Info: Figures/HW/pcb-vlc.png  used on input line 358.
+(pdftex.def)             Requested size: 289.68263pt x 277.03537pt.
 
 
-[26 <./Figures/HW/pcb-motor-mk-ii.png>]
+[27 <./Figures/HW/pcb-motor-mk-ii.png> <./Figures/HW/pcb-vlc.png>]
+
+[28
+
+
+]
 chapter 4.
 
-Overfull \hbox (10.94998pt too wide) in paragraph at lines 289--289
+Overfull \hbox (10.94998pt too wide) in paragraph at lines 383--383
 [][][][][][][][] 
  []
 
 
 
-[27
-
-
-]
-<./Figures/Ch4/stm32.png, id=1043, 746.79pt x 475.02469pt>
+[29]
+<./Figures/Ch4/stm32.png, id=1085, 746.79pt x 475.02469pt>
 File: ./Figures/Ch4/stm32.png Graphic file (type png)
 <use ./Figures/Ch4/stm32.png>
-Package pdftex.def Info: ./Figures/Ch4/stm32.png  used on input line 329.
+Package pdftex.def Info: ./Figures/Ch4/stm32.png  used on input line 423.
 (pdftex.def)             Requested size: 261.3804pt x 166.26112pt.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 436.
 
 
-[28 <./Figures/Ch4/stm32.png>]
+[30 <./Figures/Ch4/stm32.png>]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 374.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 374.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-74.
+(Font)              scaled to size 7.3pt on input line 468.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
+68.
 
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1949,27 +1910,176 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 )
 (CodeSnippets/Sensors/Ultrasonic/ultrasonic.cpp)
 
-[29] (CodeSnippets/Sensors/Ultrasonic/ultrasonic.cpp)
+[31] (CodeSnippets/Sensors/Ultrasonic/ultrasonic.cpp)
 (CodeSnippets/Sensors/MPU6050/mpu.cpp) (CodeSnippets/Sensors/MPU6050/mpu.cpp)
 (CodeSnippets/Sensors/MPU6050/mpu.cpp)
 
-[30]
-
-[31] (CodeSnippets/Sensors/Encoder/encoder.cpp)
-(CodeSnippets/Sensors/Encoder/encoder.cpp)
-
 [32] (CodeSnippets/Sensors/Encoder/encoder.cpp)
-(CodeSnippets/Sensors/Encoder/encoder.cpp)
 (CodeSnippets/Sensors/Encoder/encoder.cpp)
 
 [33] (CodeSnippets/Sensors/Encoder/encoder.cpp)
+(CodeSnippets/Sensors/Encoder/encoder.cpp)
+(CodeSnippets/Sensors/Encoder/encoder.cpp)
+
+[34] (CodeSnippets/Sensors/Encoder/encoder.cpp)
 (CodeSnippets/Sensors/PID/pid.cpp) (CodeSnippets/Sensors/PID/pid.cpp)
 
-[34])
+[35] (CodeSnippets/Sensors/Ultrasonic/Sensors.ino)
+(CodeSnippets/Sensors/Ultrasonic/Sensors.ino)
+(CodeSnippets/Sensors/Ultrasonic/Sensors.ino)
+(CodeSnippets/Sensors/Ultrasonic/Sensors.ino)
 
-[35] (02-MainMatter/PartII/Chapter03.tex
+[36]
+<./Figures/encoder.jpg, id=1314, 1606.0pt x 880.28876pt>
+File: ./Figures/encoder.jpg Graphic file (type jpg)
+<use ./Figures/encoder.jpg>
+Package pdftex.def Info: ./Figures/encoder.jpg  used on input line 539.
+(pdftex.def)             Requested size: 401.49902pt x 220.07164pt.
+<./Figures/imu.jpg, id=1315, 1606.0pt x 903.375pt>
+File: ./Figures/imu.jpg Graphic file (type jpg)
+<use ./Figures/imu.jpg>
+Package pdftex.def Info: ./Figures/imu.jpg  used on input line 546.
+(pdftex.def)             Requested size: 401.49902pt x 225.8432pt.
+)
 
-[36
+[37 <./Figures/encoder.jpg> <./Figures/imu.jpg>]
+(02-MainMatter/PartII/Chapter03.tex
+
+[38
+
+
+]
+part II.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 2.
+
+
+[39]
+
+[40]
+chapter 5.
+
+Overfull \hbox (10.94998pt too wide) in paragraph at lines 4--4
+[][][][][][][][] 
+ []
+
+
+
+[41
+
+
+] (CodeSnippets/sample-map.json)
+
+[42] (CodeSnippets/sample-map.json)
+
+[43] (CodeSnippets/sample-task.json)
+
+[44]
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+)
+(CodeSnippets/sync-maps-tasks.sh)
+<./Figures/cam.jpg, id=1425, 298.11375pt x 84.315pt>
+File: ./Figures/cam.jpg Graphic file (type jpg)
+<use ./Figures/cam.jpg>
+Package pdftex.def Info: ./Figures/cam.jpg  used on input line 71.
+(pdftex.def)             Requested size: 238.49132pt x 67.45207pt.
+
+
+[45 <./Figures/cam.jpg>]
+<./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch-off
+icial.jpeg, id=1446, 229.85875pt x 116.435pt>
+File: ./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arc
+h-official.jpeg Graphic file (type jpg)
+<use ./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch
+-official.jpeg>
+Package pdftex.def Info: ./Figures/CentralProcessingNode/UsedToolsAndFrameworks
+/Ros-images/ros-arch-official.jpeg  used on input line 82.
+(pdftex.def)             Requested size: 183.88722pt x 93.14812pt.
+
+
+[46 <./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch
+-official.jpeg>]
+
+[47]
+
+[48
+
+
+]
+chapter 6.
+
+Overfull \hbox (10.94998pt too wide) in paragraph at lines 147--147
+[][][][][][][][] 
+ []
+
+
+
+[49]
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 17
+6.
+ (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 10.29301pt on input line 176.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `qhv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[50{C:/Users/Ahmed/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.
+enc}]
+<Figures/HW/VLC-blk.png, id=1483, 682.55pt x 240.9pt>
+File: Figures/HW/VLC-blk.png Graphic file (type png)
+<use Figures/HW/VLC-blk.png>
+Package pdftex.def Info: Figures/HW/VLC-blk.png  used on input line 197.
+(pdftex.def)             Requested size: 341.27417pt x 120.44969pt.
+<Figures/HW/BPW34.png, id=1485, 602.25pt x 351.3125pt>
+File: Figures/HW/BPW34.png Graphic file (type png)
+<use Figures/HW/BPW34.png>
+Package pdftex.def Info: Figures/HW/BPW34.png  used on input line 206.
+(pdftex.def)             Requested size: 240.89572pt x 140.5225pt.
+
+
+[51 <./Figures/HW/VLC-blk.png> <./Figures/HW/BPW34.png (PNG copy)>]
+<Figures/HW/ti-amp-buffer.png, id=1496, 537.50812pt x 279.29344pt>
+File: Figures/HW/ti-amp-buffer.png Graphic file (type png)
+<use Figures/HW/ti-amp-buffer.png>
+Package pdftex.def Info: Figures/HW/ti-amp-buffer.png  used on input line 220.
+(pdftex.def)             Requested size: 268.7534pt x 139.64638pt.
+
+
+[52 <./Figures/HW/ti-amp-buffer.png>]
+<Figures/HW/amp-schmitt.png, id=1505, 579.66562pt x 356.83313pt>
+File: Figures/HW/amp-schmitt.png Graphic file (type png)
+<use Figures/HW/amp-schmitt.png>
+Package pdftex.def Info: Figures/HW/amp-schmitt.png  used on input line 252.
+(pdftex.def)             Requested size: 260.8471pt x 160.57341pt.
+<Figures/HW/amp-schmitt-ltspice.png, id=1508, 1028.34187pt x 361.35pt>
+File: Figures/HW/amp-schmitt-ltspice.png Graphic file (type png)
+<use Figures/HW/amp-schmitt-ltspice.png>
+Package pdftex.def Info: Figures/HW/amp-schmitt-ltspice.png  used on input line
+ 261.
+(pdftex.def)             Requested size: 359.92505pt x 126.4744pt.
+<Figures/HW/amp-schmitt-ltspice-results.png, id=1509, 1028.34187pt x 445.665pt>
+
+File: Figures/HW/amp-schmitt-ltspice-results.png Graphic file (type png)
+<use Figures/HW/amp-schmitt-ltspice-results.png>
+Package pdftex.def Info: Figures/HW/amp-schmitt-ltspice-results.png  used on in
+put line 268.
+(pdftex.def)             Requested size: 359.92505pt x 155.98508pt.
+)
+
+[53 <./Figures/HW/amp-schmitt.png> <./Figures/HW/amp-schmitt-ltspice.png> <./Fi
+gures/HW/amp-schmitt-ltspice-results.png>] (02-MainMatter/PartII/Chapter04.tex
+
+[54
 
 
 ]
@@ -1979,172 +2089,9 @@ Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)              on input line 2.
 
 
-[37]
+[55]
 
-[38]
-chapter 5.
-
-Overfull \hbox (10.94998pt too wide) in paragraph at lines 4--4
-[][][][][][][][] 
- []
-
-
-
-[39
-
-
-] (CodeSnippets/sample-map.json
-
-[40]) (CodeSnippets/sample-task.json)
-
-[41]
-(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
-)
-(C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
-)
-(CodeSnippets/sync-maps-tasks.sh)
-<./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch-off
-icial.jpeg, id=1364, 229.85875pt x 116.435pt>
-File: ./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arc
-h-official.jpeg Graphic file (type jpg)
-<use ./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch
--official.jpeg>
-Package pdftex.def Info: ./Figures/CentralProcessingNode/UsedToolsAndFrameworks
-/Ros-images/ros-arch-official.jpeg  used on input line 62.
-(pdftex.def)             Requested size: 229.85817pt x 116.43471pt.
-
-
-[42]
-
-[43 <./Figures/CentralProcessingNode/UsedToolsAndFrameworks/Ros-images/ros-arch
--official.jpeg>]
-
-[44]
-
-[45]
-
-[46
-
-
-]
-chapter 6.
-
-Overfull \hbox (10.94998pt too wide) in paragraph at lines 125--125
-[][][][][][][][] 
- []
-
-
-
-[47]
-
-LaTeX Warning: Reference `ap:d' on page 48 undefined on input line 153.
-
-
-LaTeX Warning: Reference `ap:d' on page 48 undefined on input line 159.
-
-
-LaTeX Warning: Reference `ap:d' on page 48 undefined on input line 163.
-
-
-LaTeX Warning: Citation `vlp' on page 48 undefined on input line 167.
-
-
-LaTeX Warning: Citation `indoor-vlp' on page 48 undefined on input line 167.
-
-
-
-[48]
-<Figures/HW/VLC-blk.png, id=1418, 682.55pt x 240.9pt>
-File: Figures/HW/VLC-blk.png Graphic file (type png)
-<use Figures/HW/VLC-blk.png>
-Package pdftex.def Info: Figures/HW/VLC-blk.png  used on input line 171.
-(pdftex.def)             Requested size: 341.27417pt x 120.44969pt.
-<Figures/HW/BPW34.png, id=1420, 602.25pt x 351.3125pt>
-File: Figures/HW/BPW34.png Graphic file (type png)
-<use Figures/HW/BPW34.png>
-Package pdftex.def Info: Figures/HW/BPW34.png  used on input line 180.
-(pdftex.def)             Requested size: 240.89572pt x 140.5225pt.
-
-
-LaTeX Warning: Citation `BPW34-datasheet' on page 49 undefined on input line 18
-6.
-
-<Figures/HW/ti-amp-buffer.png, id=1422, 537.50812pt x 279.29344pt>
-File: Figures/HW/ti-amp-buffer.png Graphic file (type png)
-<use Figures/HW/ti-amp-buffer.png>
-Package pdftex.def Info: Figures/HW/ti-amp-buffer.png  used on input line 191.
-(pdftex.def)             Requested size: 322.50735pt x 167.57735pt.
-
-
-[49 <./Figures/HW/VLC-blk.png> <./Figures/HW/BPW34.png (PNG copy)>]
-
-LaTeX Warning: Citation `op-amp-circuits' on page 50 undefined on input line 19
-7.
-
-<Figures/HW/amp-schmitt.png, id=1432, 579.66562pt x 356.83313pt>
-File: Figures/HW/amp-schmitt.png Graphic file (type png)
-<use Figures/HW/amp-schmitt.png>
-Package pdftex.def Info: Figures/HW/amp-schmitt.png  used on input line 221.
-(pdftex.def)             Requested size: 173.90102pt x 107.05075pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `hw-amp-schmitt-sim' on page 50 undefined on input lin
-e 226.
-
-
-LaTeX Warning: Reference `hw-amp-schmitt-results' on page 50 undefined on input
- line 226.
-
-
-
-[50 <./Figures/HW/ti-amp-buffer.png>]
-<Figures/HW/amp-schmitt-ltspice.png, id=1438, 1028.34187pt x 361.35pt>
-File: Figures/HW/amp-schmitt-ltspice.png Graphic file (type png)
-<use Figures/HW/amp-schmitt-ltspice.png>
-Package pdftex.def Info: Figures/HW/amp-schmitt-ltspice.png  used on input line
- 230.
-(pdftex.def)             Requested size: 308.50494pt x 108.40584pt.
-<Figures/HW/amp-schmitt-ltspice-results.png, id=1439, 1028.34187pt x 445.665pt>
-
-File: Figures/HW/amp-schmitt-ltspice-results.png Graphic file (type png)
-<use Figures/HW/amp-schmitt-ltspice-results.png>
-Package pdftex.def Info: Figures/HW/amp-schmitt-ltspice-results.png  used on in
-put line 237.
-(pdftex.def)             Requested size: 308.50494pt x 133.70053pt.
-
-
-[51 <./Figures/HW/amp-schmitt.png> <./Figures/HW/amp-schmitt-ltspice.png> <./Fi
-gures/HW/amp-schmitt-ltspice-results.png>]
-<Figures/HW/schem-vlc.png, id=1447, 821.31844pt x 393.72093pt>
-File: Figures/HW/schem-vlc.png Graphic file (type png)
-<use Figures/HW/schem-vlc.png>
-Package pdftex.def Info: Figures/HW/schem-vlc.png  used on input line 260.
-(pdftex.def)             Requested size: 246.39743pt x 118.11719pt.
-<Figures/HW/pcb-vlc.png, id=1448, 362.10281pt x 346.29375pt>
-File: Figures/HW/pcb-vlc.png Graphic file (type png)
-<use Figures/HW/pcb-vlc.png>
-Package pdftex.def Info: Figures/HW/pcb-vlc.png  used on input line 268.
-(pdftex.def)             Requested size: 181.05095pt x 173.14644pt.
-
-
-[52 <./Figures/HW/schem-vlc.png> <./Figures/HW/pcb-vlc.png>])
-(02-MainMatter/PartII/Chapter04.tex
-part IV.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2.
-
-
-[53
-
-
-]
-
-[54]
+[56]
 chapter 7.
 
 Overfull \hbox (10.94998pt too wide) in paragraph at lines 4--4
@@ -2153,29 +2100,29 @@ Overfull \hbox (10.94998pt too wide) in paragraph at lines 4--4
 
 
 
-[55
+[57
 
 
 ]
 
-[56]
+[58]
 
-[57] (CodeSnippets/ReactRouterDom.tsx)
+[59] (CodeSnippets/ReactRouterDom.tsx) (CodeSnippets/ReactRouterDom.tsx)
 
-[58] (CodeSnippets/ReactRouterDom.tsx) (CodeSnippets/axios.tsx)
+[60] (CodeSnippets/axios.tsx)
 
-[59] (CodeSnippets/axios.tsx)
+[61] (CodeSnippets/axios.tsx)
 
-[60] (CodeSnippets/socket.io-client.tsx) (CodeSnippets/socket.io-client.tsx)
+[62] (CodeSnippets/socket.io-client.tsx) (CodeSnippets/socket.io-client.tsx)
 (CodeSnippets/socket.io-client.tsx)
 
-[61] (CodeSnippets/socket.io-client.tsx)
+[63] (CodeSnippets/socket.io-client.tsx)
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
 )
 (CodeSnippets/socketAPI.py) (CodeSnippets/socketAPI.py)
 
-[62] (CodeSnippets/socketAPI.py
+[64] (CodeSnippets/socketAPI.py
 Overfull \hbox (16.37752pt too wide) in paragraph at lines 47--48
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][] 
@@ -2183,13 +2130,11 @@ Overfull \hbox (16.37752pt too wide) in paragraph at lines 47--48
 
 ) (CodeSnippets/socketAPI.py)
 
-[63]
-
-[64] (CodeSnippets/reactflow.tsx)
-
-[65]
+[65] (CodeSnippets/reactflow.tsx)
 
 [66]
+
+[67]
 (C:\Users\Ahmed\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
 )
@@ -2198,175 +2143,172 @@ File: lstlang2.sty 2024/05/25 1.10b listings language file
 )
 (CodeSnippets/middleware.php) (CodeSnippets/filewriting.php)
 
-[67]
-
 [68]
 
 [69]
 
 [70]
-<Figures/WebApp/HomePage.png, id=1781, 1028.34187pt x 460.72125pt>
-File: Figures/WebApp/HomePage.png Graphic file (type png)
-<use Figures/WebApp/HomePage.png>
-Package pdftex.def Info: Figures/WebApp/HomePage.png  used on input line 543.
+
+[71]
+<./Figures/WebApp/HomePage.png, id=1840, 1028.34187pt x 460.72125pt>
+File: ./Figures/WebApp/HomePage.png Graphic file (type png)
+<use ./Figures/WebApp/HomePage.png>
+Package pdftex.def Info: ./Figures/WebApp/HomePage.png  used on input line 497.
+
 (pdftex.def)             Requested size: 359.92505pt x 161.25485pt.
-
-
-[71 <./Figures/WebApp/HomePage.png>]
-<Figures/WebApp/Robots.png, id=1794, 1028.34187pt x 483.30562pt>
-File: Figures/WebApp/Robots.png Graphic file (type png)
-<use Figures/WebApp/Robots.png>
-Package pdftex.def Info: Figures/WebApp/Robots.png  used on input line 554.
+<./Figures/WebApp/Robots.png, id=1842, 1028.34187pt x 483.30562pt>
+File: ./Figures/WebApp/Robots.png Graphic file (type png)
+<use ./Figures/WebApp/Robots.png>
+Package pdftex.def Info: ./Figures/WebApp/Robots.png  used on input line 508.
 (pdftex.def)             Requested size: 318.78268pt x 149.8232pt.
-<Figures/WebApp/createRobot.png, id=1796, 1028.34187pt x 394.47375pt>
-File: Figures/WebApp/createRobot.png Graphic file (type png)
-<use Figures/WebApp/createRobot.png>
-Package pdftex.def Info: Figures/WebApp/createRobot.png  used on input line 564
+
+
+[72 <./Figures/WebApp/HomePage.png> <./Figures/WebApp/Robots.png>]
+<./Figures/WebApp/createRobot.png, id=1850, 1028.34187pt x 394.47375pt>
+File: ./Figures/WebApp/createRobot.png Graphic file (type png)
+<use ./Figures/WebApp/createRobot.png>
+Package pdftex.def Info: ./Figures/WebApp/createRobot.png  used on input line 5
+18.
+(pdftex.def)             Requested size: 411.32947pt x 157.7867pt.
+<./Figures/WebApp/editRobot.png, id=1852, 1028.34187pt x 411.03563pt>
+File: ./Figures/WebApp/editRobot.png Graphic file (type png)
+<use ./Figures/WebApp/editRobot.png>
+Package pdftex.def Info: ./Figures/WebApp/editRobot.png  used on input line 527
 .
-(pdftex.def)             Requested size: 318.78268pt x 122.28558pt.
-<Figures/WebApp/editRobot.png, id=1798, 1028.34187pt x 411.03563pt>
-File: Figures/WebApp/editRobot.png Graphic file (type png)
-<use Figures/WebApp/editRobot.png>
-Package pdftex.def Info: Figures/WebApp/editRobot.png  used on input line 573.
-(pdftex.def)             Requested size: 318.78268pt x 127.41972pt.
+(pdftex.def)             Requested size: 411.32947pt x 164.41133pt.
 
 
-[72 <./Figures/WebApp/Robots.png> <./Figures/WebApp/createRobot.png> <./Figures
-/WebApp/editRobot.png>]
-<Figures/WebApp/mapsCreation.png, id=1807, 1027.58907pt x 483.30562pt>
-File: Figures/WebApp/mapsCreation.png Graphic file (type png)
-<use Figures/WebApp/mapsCreation.png>
-Package pdftex.def Info: Figures/WebApp/mapsCreation.png  used on input line 58
-6.
+[73 <./Figures/WebApp/createRobot.png> <./Figures/WebApp/editRobot.png>]
+<./Figures/WebApp/mapsCreation.png, id=1860, 1027.58907pt x 483.30562pt>
+File: ./Figures/WebApp/mapsCreation.png Graphic file (type png)
+<use ./Figures/WebApp/mapsCreation.png>
+Package pdftex.def Info: ./Figures/WebApp/mapsCreation.png  used on input line 
+540.
 (pdftex.def)             Requested size: 411.02835pt x 193.31882pt.
-<Figures/WebApp/newMap.png, id=1809, 1028.34187pt x 484.05844pt>
-File: Figures/WebApp/newMap.png Graphic file (type png)
-<use Figures/WebApp/newMap.png>
-Package pdftex.def Info: Figures/WebApp/newMap.png  used on input line 598.
+<./Figures/WebApp/newMap.png, id=1862, 1028.34187pt x 484.05844pt>
+File: ./Figures/WebApp/newMap.png Graphic file (type png)
+<use ./Figures/WebApp/newMap.png>
+Package pdftex.def Info: ./Figures/WebApp/newMap.png  used on input line 552.
 (pdftex.def)             Requested size: 411.32947pt x 193.61993pt.
 
 
-[73 <./Figures/WebApp/mapsCreation.png> <./Figures/WebApp/newMap.png>]
-<Figures/WebApp/editNode.png, id=1818, 1028.34187pt x 438.13687pt>
-File: Figures/WebApp/editNode.png Graphic file (type png)
-<use Figures/WebApp/editNode.png>
-Package pdftex.def Info: Figures/WebApp/editNode.png  used on input line 609.
+[74 <./Figures/WebApp/mapsCreation.png> <./Figures/WebApp/newMap.png>]
+<./Figures/WebApp/editNode.png, id=1870, 1028.34187pt x 438.13687pt>
+File: ./Figures/WebApp/editNode.png Graphic file (type png)
+<use ./Figures/WebApp/editNode.png>
+Package pdftex.def Info: ./Figures/WebApp/editNode.png  used on input line 563.
+
 (pdftex.def)             Requested size: 411.32947pt x 175.25163pt.
-<Figures/WebApp/editMap.png, id=1820, 1028.34187pt x 469.00218pt>
-File: Figures/WebApp/editMap.png Graphic file (type png)
-<use Figures/WebApp/editMap.png>
-Package pdftex.def Info: Figures/WebApp/editMap.png  used on input line 619.
+<./Figures/WebApp/editMap.png, id=1872, 1028.34187pt x 469.00218pt>
+File: ./Figures/WebApp/editMap.png Graphic file (type png)
+<use ./Figures/WebApp/editMap.png>
+Package pdftex.def Info: ./Figures/WebApp/editMap.png  used on input line 573.
 (pdftex.def)             Requested size: 411.32947pt x 187.59755pt.
 
 
-[74 <./Figures/WebApp/editNode.png> <./Figures/WebApp/editMap.png>]
-<Figures/WebApp/tasks.png, id=1828, 1028.34187pt x 440.39531pt>
-File: Figures/WebApp/tasks.png Graphic file (type png)
-<use Figures/WebApp/tasks.png>
-Package pdftex.def Info: Figures/WebApp/tasks.png  used on input line 632.
+[75 <./Figures/WebApp/editNode.png> <./Figures/WebApp/editMap.png>]
+<./Figures/WebApp/tasks.png, id=1880, 1028.34187pt x 440.39531pt>
+File: ./Figures/WebApp/tasks.png Graphic file (type png)
+<use ./Figures/WebApp/tasks.png>
+Package pdftex.def Info: ./Figures/WebApp/tasks.png  used on input line 586.
 (pdftex.def)             Requested size: 411.32947pt x 176.155pt.
-<Figures/WebApp/taskCreation.png, id=1830, 1028.34187pt x 457.71pt>
-File: Figures/WebApp/taskCreation.png Graphic file (type png)
-<use Figures/WebApp/taskCreation.png>
-Package pdftex.def Info: Figures/WebApp/taskCreation.png  used on input line 64
-0.
+<./Figures/WebApp/taskCreation.png, id=1882, 1028.34187pt x 457.71pt>
+File: ./Figures/WebApp/taskCreation.png Graphic file (type png)
+<use ./Figures/WebApp/taskCreation.png>
+Package pdftex.def Info: ./Figures/WebApp/taskCreation.png  used on input line 
+594.
 (pdftex.def)             Requested size: 411.32947pt x 183.08075pt.
 
 
-[75 <./Figures/WebApp/tasks.png> <./Figures/WebApp/taskCreation.png>]
+[76 <./Figures/WebApp/tasks.png> <./Figures/WebApp/taskCreation.png>]
+<./Figures/WebApp/Dashboard.jpeg, id=1890, 1371.1225pt x 730.73pt>
+File: ./Figures/WebApp/Dashboard.jpeg Graphic file (type jpg)
+<use ./Figures/WebApp/Dashboard.jpeg>
+Package pdftex.def Info: ./Figures/WebApp/Dashboard.jpeg  used on input line 60
+8.
+(pdftex.def)             Requested size: 411.33992pt x 219.22069pt.
 
-[76
+
+[77 <./Figures/WebApp/Dashboard.jpeg>]
+
+[78
 
 
 ]
 chapter 8.
 
-Overfull \hbox (10.94998pt too wide) in paragraph at lines 650--650
+Overfull \hbox (10.94998pt too wide) in paragraph at lines 618--618
 [][][][][][][][] 
  []
 
 
 
-[77] (CodeSnippets/ufwconfig))
+[79] (CodeSnippets/ufwconfig))
 
-[78] (02-MainMatter/PartIII/ResultsAndConclusion.tex
-part V.
+[80] (02-MainMatter/PartIII/ResultsAndConclusion.tex
+part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 1.
 
 
-[79
+[81
 
 
 ]
 
-[80]
+[82]
 chapter 9.
 
 Overfull \hbox (10.94998pt too wide) in paragraph at lines 2--2
 [][][][][][][][] 
  []
 
-(CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh)
+(CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh)
 
-[81
+[83
 
 
-] (CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh
+] (CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh)
 
-[82]) (CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh
+[84] (CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh) (CodeSnippets/waip1.sh
 Overfull \hbox (15.31294pt too wide) in paragraph at lines 57--58
 [][][][][][][][][][][][][][][][][][][] 
  []
 
 ) (CodeSnippets/waip1.sh)
 
-[83] (CodeSnippets/waip2.sh) (CodeSnippets/waip2.sh)
+[85] (CodeSnippets/waip2.sh) (CodeSnippets/waip2.sh)
 
-[84] (CodeSnippets/inst-dash.sh) (CodeSnippets/install-ros
+[86] (CodeSnippets/inst-dash.sh)
+
+[87] (CodeSnippets/install-ros
 Overfull \hbox (2.71281pt too wide) in paragraph at lines 1--2
 [][][][][][][][][][][][][]  
  []
 
+) (CodeSnippets/get-ros-scripts) (CodeSnippets/get-ros-scripts)
 
+[88] (CodeSnippets/start-srv) (CodeSnippets/start-srv)
 
-[85]) (CodeSnippets/get-ros-scripts) (CodeSnippets/get-ros-scripts)
+[89] (CodeSnippets/start-sbc)
 
-[86] (CodeSnippets/start-srv) (CodeSnippets/start-srv)
-
-[87] (CodeSnippets/start-sbc)
-
-[88] (CodeSnippets/start-sbc) (CodeSnippets/robot-low-level-w-odom.launch)
-
-[89]
-<./Figures/WebApp/sign-up.png, id=2095, 1927.2pt x 1084.05pt>
-File: ./Figures/WebApp/sign-up.png Graphic file (type png)
-<use ./Figures/WebApp/sign-up.png>
-Package pdftex.def Info: ./Figures/WebApp/sign-up.png  used on input line 114.
-(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
-<./Figures/WebApp/sign-in.png, id=2096, 1927.2pt x 1084.05pt>
-File: ./Figures/WebApp/sign-in.png Graphic file (type png)
-<use ./Figures/WebApp/sign-in.png>
-Package pdftex.def Info: ./Figures/WebApp/sign-in.png  used on input line 120.
-(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
-
-
-[90 <./Figures/WebApp/sign-up.png> <./Figures/WebApp/sign-in.png>]
+[90] (CodeSnippets/start-sbc) (CodeSnippets/robot-low-level-w-odom.launch)
 
 [91]
+<./Figures/WebApp/sign-up.png, id=2150, 1927.2pt x 1084.05pt>
+File: ./Figures/WebApp/sign-up.png Graphic file (type png)
+<use ./Figures/WebApp/sign-up.png>
+Package pdftex.def Info: ./Figures/WebApp/sign-up.png  used on input line 125.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
+<./Figures/WebApp/sign-in.png, id=2151, 1927.2pt x 1084.05pt>
+File: ./Figures/WebApp/sign-in.png Graphic file (type png)
+<use ./Figures/WebApp/sign-in.png>
+Package pdftex.def Info: ./Figures/WebApp/sign-in.png  used on input line 131.
+(pdftex.def)             Requested size: 385.43318pt x 216.80615pt.
 
-[92
 
-
-]
-chapter 10.
-
-Overfull \hbox (10.94998pt too wide) in paragraph at lines 134--134
-[][][][][][][][] 
- []
-
-)) (BackMatter.tex (main.bbl
+[92 <./Figures/WebApp/sign-up.png> <./Figures/WebApp/sign-in.png>]
 
 [93]
 
@@ -2374,19 +2316,46 @@ Overfull \hbox (10.94998pt too wide) in paragraph at lines 134--134
 
 
 ]
+chapter 10.
+
+Overfull \hbox (10.94998pt too wide) in paragraph at lines 147--147
+[][][][][][][][] 
+ []
+
+
+
+[95])) (BackMatter.tex (main.bbl
+
+[96]
 chapter without number
 
 
-[95])
+[97
 
-[96] (03-BackMatter/AppendixA.tex
+
+]
+
+[98])
+
+[99]
+
+[100
+
+
+] (03-BackMatter/AppendixA.tex
 chapter A.
 
 Overfull \hbox (10.94998pt too wide) in paragraph at lines 1--1
 [][][][][][][][] 
  []
 
-) (03-BackMatter/AppendixB.tex
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 18.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 18.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 18.
+
 
 [1
 
@@ -2394,10 +2363,66 @@ Overfull \hbox (10.94998pt too wide) in paragraph at lines 1--1
 
 
 
+]
+
+[2]
+
+[3]
+
+[4]
+Underfull \vbox (badness 5431) has occurred while \output is active []
+
+
+
+[5]) (03-BackMatter/AppendixC.tex
+
+[6]
+chapter B.
+
+Overfull \hbox (10.94998pt too wide) in paragraph at lines 1--1
+[][][][][][][][] 
+ []
+
+File: ./Figures/HW/Voltage-Measurement.png Graphic file (type png)
+<use ./Figures/HW/Voltage-Measurement.png>
+Package pdftex.def Info: ./Figures/HW/Voltage-Measurement.png  used on input li
+ne 47.
+(pdftex.def)             Requested size: 187.82625pt x 179.92174pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[1
+
 
 
 ]
-chapter B.
+
+[2]
+<./Figures/HW/Temperature Measurement.png, id=2283, 292.09125pt x 350.81062pt>
+File: ./Figures/HW/Temperature Measurement.png Graphic file (type png)
+<use ./Figures/HW/Temperature Measurement.png>
+Package pdftex.def Info: ./Figures/HW/Temperature Measurement.png  used on inpu
+t line 112.
+(pdftex.def)             Requested size: 146.04526pt x 175.40488pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 119.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 119.
+
+Missing character: There is no ° in font zpl-Regular-tlf-ot1!
+
+
+[3]) (03-BackMatter/AppendixB.tex
+
+[4 <./Figures/HW/Temperature Measurement.png>]
+chapter C.
 
 Overfull \hbox (10.94998pt too wide) in paragraph at lines 2--2
 [][][][][][][][] 
@@ -2410,7 +2435,7 @@ Overfull \hbox (10.94998pt too wide) in paragraph at lines 2--2
 
 
 ]
-<./Figures/AppendixB/encoder.png, id=2175, 615.0478pt x 262.73157pt>
+<./Figures/AppendixB/encoder.png, id=2311, 615.0478pt x 262.73157pt>
 File: ./Figures/AppendixB/encoder.png Graphic file (type png)
 <use ./Figures/AppendixB/encoder.png>
 Package pdftex.def Info: ./Figures/AppendixB/encoder.png  used on input line 54
@@ -2419,7 +2444,7 @@ Package pdftex.def Info: ./Figures/AppendixB/encoder.png  used on input line 54
 
 
 [2]
-<./Figures/AppendixB/encoder-pulses.png, id=2180, 554.82281pt x 262.73157pt>
+<./Figures/AppendixB/encoder-pulses.png, id=2316, 554.82281pt x 262.73157pt>
 File: ./Figures/AppendixB/encoder-pulses.png Graphic file (type png)
 <use ./Figures/AppendixB/encoder-pulses.png>
 Package pdftex.def Info: ./Figures/AppendixB/encoder-pulses.png  used on input 
@@ -2428,12 +2453,12 @@ line 66.
 
 
 [3 <./Figures/AppendixB/encoder.png> <./Figures/AppendixB/encoder-pulses.png>]
-<./Figures/AppendixB/mpu.png, id=2185, 219.06844pt x 188.20313pt>
+<./Figures/AppendixB/mpu.png, id=2322, 219.06844pt x 188.20313pt>
 File: ./Figures/AppendixB/mpu.png Graphic file (type png)
 <use ./Figures/AppendixB/mpu.png>
 Package pdftex.def Info: ./Figures/AppendixB/mpu.png  used on input line 93.
 (pdftex.def)             Requested size: 109.53394pt x 94.10132pt.
-<./Figures/AppendixB/acc.png, id=2187, 204.01219pt x 195.73125pt>
+<./Figures/AppendixB/acc.png, id=2324, 204.01219pt x 195.73125pt>
 File: ./Figures/AppendixB/acc.png Graphic file (type png)
 <use ./Figures/AppendixB/acc.png>
 Package pdftex.def Info: ./Figures/AppendixB/acc.png  used on input line 107.
@@ -2445,7 +2470,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 [4 <./Figures/AppendixB/mpu.png>]
-<./Figures/AppendixB/gyro.png, id=2193, 303.38344pt x 263.48438pt>
+<./Figures/AppendixB/gyro.png, id=2330, 303.38344pt x 263.48438pt>
 File: ./Figures/AppendixB/gyro.png Graphic file (type png)
 <use ./Figures/AppendixB/gyro.png>
 Package pdftex.def Info: ./Figures/AppendixB/gyro.png  used on input line 128.
@@ -2453,7 +2478,7 @@ Package pdftex.def Info: ./Figures/AppendixB/gyro.png  used on input line 128.
 
 
 [5 <./Figures/AppendixB/acc.png> <./Figures/AppendixB/gyro.png>]
-<./Figures/AppendixB/ulta2.png, id=2198, 297.36093pt x 231.86626pt>
+<./Figures/AppendixB/ulta2.png, id=2335, 297.36093pt x 231.86626pt>
 File: ./Figures/AppendixB/ulta2.png Graphic file (type png)
 <use ./Figures/AppendixB/ulta2.png>
 Package pdftex.def Info: ./Figures/AppendixB/ulta2.png  used on input line 162.
@@ -2469,7 +2494,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-<./Figures/AppendixB/ultra1.png, id=2199, 463.7325pt x 414.79968pt>
+<./Figures/AppendixB/ultra1.png, id=2336, 463.7325pt x 414.79968pt>
 File: ./Figures/AppendixB/ultra1.png Graphic file (type png)
 <use ./Figures/AppendixB/ultra1.png>
 Package pdftex.def Info: ./Figures/AppendixB/ultra1.png  used on input line 182
@@ -2490,26 +2515,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 [7 <./Figures/AppendixB/ultra1.png>]
 
 [8]
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.1pt on input line 252.
 
-
-[9]) (03-BackMatter/AppendixC.tex
+[9]) (03-BackMatter/AppendixD.tex
 
 [10]
-chapter C.
-
-Overfull \hbox (10.94998pt too wide) in paragraph at lines 1--1
-[][][][][][][][] 
- []
-
-) (03-BackMatter/AppendixD.tex
-
-[1
-
-
-
-]
 chapter D.
 
 Overfull \hbox (10.94998pt too wide) in paragraph at lines 1--1
@@ -2540,20 +2549,17 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33813 strings out of 473919
- 617296 string characters out of 5726953
+ 33992 strings out of 473919
+ 621183 string characters out of 5726953
  2058908 words of memory out of 5000000
- 54467 multiletter control sequences out of 15000+600000
- 688447 words of font info for 266 fonts, out of 8000000 for 9000
+ 54592 multiletter control sequences out of 15000+600000
+ 707919 words of font info for 305 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,21n,123p,10901b,3549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2598,12 +2604,13 @@ MiKTeX/fonts/type1/public/lm/lmtti10.pfb><C:/Users/Ahmed/AppData/Local/Programs
 ams/MiKTeX/fonts/type1/public/newpx/pxsys.pfb><C:/Users/Ahmed/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/Ahmed/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/Ahmed/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/Ahmed/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/newpx/zplr.pfb><C:/Users/Ahmed/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/newpx/zplri.pfb>
-Output written on main.pdf (131 pages, 8432022 bytes).
+al/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/Ahmed/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/Ahmed/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/newpx/zplr.pfb><C:/Users/Ahmed/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/newpx/zplri.pfb>
+Output written on main.pdf (139 pages, 8849826 bytes).
 PDF statistics:
- 3089 PDF objects out of 3580 (max. 8388607)
- 1190 named destinations out of 1200 (max. 500000)
- 64294 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 3259 PDF objects out of 3580 (max. 8388607)
+ 1220 named destinations out of 1440 (max. 500000)
+ 74636 words of extra memory for PDF output out of 89155 (max. 10000000)
 

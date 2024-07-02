@@ -5,31 +5,41 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\part{Project Overview}
+%\part{Project Overview}
 
 \chapter{Introduction}
 \label{ch:1}
 \section{Problem Statement}
+
 In a study made by the International Labor Organization (ILO), it was estimated that around 2.3 million men and women across the globe succumb to work-related accidents and/or diseases every year; this corresponds to over 6000 deaths every single day. 
 
 The consequences of these accidents are:
 \begin{itemize}
 	\item Losses in manpower.
+
 	\item Delayed production.
+
 	\item Loss in capital---i.e.; money.
 \end{itemize}
 
 The proposed solution for this problem is using a fleet of autonomous robots inside factories: ones equipped with a multitude of sensors and state-of-the-art algorithms in order to navigate through challenging environments while being able to complete the desired tasks.
 
 \section{Specifications}
+
 In order for an autonomous robot to meet the expected work criteria, the following specifications are proposed:
 \begin{enumerate}
 	\item Challenging environment traversal.
+
 	\item Battery-powered.
+
 	\item Ability to grab objects with a mechanical arm.
+
     \item Ease of integration with existing environments.
+
     \item Dashboard for monitoring robots.
 \end{enumerate}
+
+\newpage
 
 \section{Development Objectives}
 In order for the previously-mentioned list of specifications to be achieved, the system should be developed with the following objectives:
@@ -60,24 +70,19 @@ In order for the previously-mentioned list of specifications to be achieved, the
             \end{itemize}
 \end{enumerate}
 
+\newpage
 
 \section{Proposed System Architecture}
-The system consists of the main components shown in figure below. The arrows connecting the blocks indicate either communication between them or dependency of one over the other.
+The system consists of the main components shown in figure \ref{fig:sysarch}. The arrows connecting the blocks indicate either communication between them or dependency of one over the other.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[scale=0.3]{./Figures/Intro/Capture.PNG}
+	\includegraphics[scale=0.7]{./Figures/sysarch.PNG}
 	\caption{Block Diagram That Depicts System Architecture}
 	\label{fig:sysarch}
 \end{figure}
 
-\section{What To Expect}
-The next parts will include both the thought process behind each block implementation, used tools, as well as the expected outcome. The was the project is divided into section follows the depiction in the figure below.
+The next parts will include both the thought process behind each block implementation, used tools, as well as the expected outcome.
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale=0.3]{./Figures/Intro/Capture2.PNG}
-	\caption{Block Diagram That Depicts System Architecture (2)}
-	\label{fig:sysarch}
-\end{figure} 
+The first part, System Infrastructure, encapsulates the following layers; each in its own chapter: Mechanical System, Electrical System, and Sensors \& Control. The second part, Central Processing Node, primarily deals with the SBC layer from two perspectives: the first as a Communication Hub and the second as the brain behind Indoor Localization. The third part, User Service Node, tackles both the Server Infrastructure and the Web Application.
 
 

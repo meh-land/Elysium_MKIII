@@ -1,38 +1,180 @@
-\chapter{Bill of Materials}
+\chapter{List of Materials}
 \section{Boards}
-\subsection{Sensors' Board}
-% \begin{tabular}{ |p{5cm}||p{3cm}|p{1cm}|p{3cm}|  }
+\subsection{Sensors Board}
+\begin{center}
+	\setlength\extrarowheight{7pt}
+	\begin{tabular}{lc}
+		{\large Component} & {\large Quantity} \\\midrule
+		%\vspace{0.7mm}
+		{\large STM32 BluePill C8} & {\large 1} \\
+		{\large MPU6050} & {\large 1} \\
+		{\large Ultrasonic Sensor} & {\large 4} \\
+		{\large TJA1040T CAN Transceiver} & {\large 1} \\
+		{\large NUP2105L Dual TVS Diodes} & {\large 1} \\ 
+		{\large JST Female Connector 2.54mm * 4 pins} & {\large 4} \\
+		{\large AOD403 P-Channel MOSFET} & {\large 1}\\
+		{\large 5.1 LL-34 Zener Diode} & {\large 1} \\
+		{\large 0603 LED} & {\large 3} \\
+		{\large 0603 $10 k\Omega$ Resistor} & {\large 3}\\
+		{\large 0603 $1 k\Omega$ Resistor}  & {\large 4}\\
+		{\large 0603 $1.2 k\Omega$ Resistor}  & {\large 2}\\
+		{\large 0805 $100 nF$ Capacitor}  & {\large 1}\\
+		{\large 0805 $47 nF$ Capacitor}  & {\large 1}\\
+		{\large 0805 $22 pF$ Capacitor}  & {\large 2}\\
+	\end{tabular}
+\end{center}
+\newpage
+\subsection{Actuators' Board}
+\begin{center}
+	\setlength\extrarowheight{7pt}
+	\begin{tabular}{lc}
+		{\large Component} & {\large Quantity} \\\midrule
+		%\vspace{0.7mm}
+		{\large STM32 BluePill C8} & {\large 1} \\
+		{\large TJA1040T CAN Transceiver} & {\large 1} \\
+		{\large NUP2105L Dual TVS Diodes} & {\large 1} \\ 
+		{\large JST Female Connector 2.54mm * 3 pins} & {\large 10} \\
+		{\large AOD403 P-Channel MOSFET} & {\large 1}\\
+		{\large 5.1 LL-34 Zener Diode} & {\large 1} \\
+		{\large 0603 $1.2 k\Omega$ Resistor}  & {\large 2}\\
+		{\large 0805 $100 nF$ Capacitor}  & {\large 1}\\
+		{\large 0805 $47 nF$ Capacitor}  & {\large 1}\\
+		{\large 0805 $22 pF$ Capacitor}  & {\large 2}\\
+	\end{tabular}
+\end{center}
 
-%  \hline
-%  Component& Price/unit & Number &ITotal Cost\\
-%  \hline
-%  STM32 BluePill C8   & 300 & 1&   300\\
-%  \hline
-%  MPU6050&   AX  & 1   &248\\
-%  \hline
-%  Ultrasonic Sensor &AL & 4&  008\\
-%  \hline
-%  JST Female Connector 2.54mm * 4 pins &DZ & 4&  012\\
-%  \hline
-%  American Samoa&   AS  & ASM&016\\
-%  Andorra& AD  & AND   &020\\
-%  Angola& AO  & AGO&024\\
-%  \hline
-% \end{tabular}
+\subsection{Power Distribution Board}
+\begin{center}
+	\setlength\extrarowheight{7pt}
+	\begin{tabular}{lc}
+		{\large Component} & {\large Quantity} \\\midrule
+		%\vspace{0.7mm}
+		{\large XL4016 Buck Converter Module} & {\large 1} \\
+		{\large 5.1 Zener Diode} & {\large 1} \\
+		{\large AOD403 P-Channel MOSFET} & {\large 1}\\
+		{\large USB Type A Female Connector} & {\large 2} \\
+		{\large Power Terminal Block 3 * 9.5 mm} & {\large 2} \\ 
+		{\large Terminal Block 2 * 5 mm} & {\large 2} \\
+		{\large Fuse T5*20 mm} & {\large 2(1* 5A + 1*6*A)} \\
+		{\large Flat Terminal Block 5 mm} & {\large 4} \\
+		{\large XT-60 Female Connector} & {\large 2} \\        {\large Barrel DC Female Connector. } & {\large 1} \\
+		{\large $100 \Omega$ 2 W Resistor } & {\large 1} \\
+		{\large $1 k\Omega$ Resistor} & {\large 2} \\
+		{\large Through-Hole LED} & {\large 2} \\
+		
+	\end{tabular}
+\end{center}
 
-% \begin{center}
-%     \setlength\extrarowheight{7pt}
-% \begin{tabular}{lc}
-%     {\large Component} & {\large Quantity} \\\midrule
-%     %\vspace{0.7mm}
-%     {\large STM32 BluePill C8} & {\large 1} \\
-%     {\large MPU6050} & {\large 1} \\
-%     {\large Ultrasonic Sensor} & {\large 4} \\
-%     {\large TJA1040T CAN Transceiver} & {\large 1} \\
-%     {\large NUP2105L Dual TVS Diodes} & {\large 1} \\ 
-%     {\large JST Female Connector 2.54mm * 4 pins} & {\large 4} \\
-%     {\large AOD403 P-Channel MOSFET} & {\large 1}\\
-%     {\large 5.1 LL-34 Zener Diode} & {\large 1} \\
-% \end{tabular}
-% \end{center}
 
+
+\newpage
+
+
+
+\subsection{Battery Management System}
+\begin{center}
+	\setlength\extrarowheight{7pt}
+	\begin{tabular}{lc}
+		{\large Component} & {\large Quantity} \\\midrule
+		%\vspace{0.7mm}
+		{\large ESP32} & {\large 1} \\
+		{\large MT2492 Buck Converter IC SOT23-6} & {\large 1} \\
+		{\large MCP6002 Rail-to-Rail Op-Amp DIP8} & {\large 1} \\
+		{\large BMS Module for Protection Module} & {\large 1} \\
+		{\large PC817 Optocoupler DIP4} & {\large 3} \\
+		{\large SI2302 N-Channel MOSFET SOT-23} & {\large 3} \\
+		{\large 0603 22$\mu$F} & {\large 2} \\
+		{\large 0603 22nF} & {\large 1} \\
+		{\large 0805 47pF} & {\large 1} \\
+		{\large 0805 100n} & {\large 1} \\
+		{\large 0805 100uF Capacitor} & {\large 1} \\
+		{\large 0603 1k$\Omega$} & {\large 3} \\
+		{\large 0603 10k$\Omega$} & {\large 10} \\
+		{\large 2512 100$\Omega$} & {\large 3} \\
+		{\large 0603 110k$\Omega$} & {\large 1} \\
+		{\large 0603 15k$\Omega$} & {\large 1} \\
+		{\large 0603 1.5M$\Omega$} & {\large 1} \\
+		{\large 0805 56k$\Omega$} & {\large 1} \\
+		{\large 0805 47k$\Omega$} & {\large 1} \\
+	\end{tabular}
+\end{center}
+
+
+\newpage
+
+\begin{center}
+	\setlength\extrarowheight{7pt}
+	\begin{tabular}{lc}
+		{\large Component} & {\large Quantity} \\\midrule
+		%\vspace{0.7mm}
+		{\large 0805 68k$\Omega$} & {\large 2} \\
+		{\large 0805 220k$\Omega$} & {\large 1} \\
+		{\large 0805 33k$\Omega$} & {\large 2} \\
+		{\large 0805 56k$\Omega$} & {\large 1} \\
+		{\large 0805 10k$\Omega$} & {\large 5} \\
+		{\large 0805 22k$\Omega$} & {\large 1} \\
+		{\large MF58 100k$\Omega$ NTC} & {\large 1} \\
+		{\large 100m$\Omega$ 7W Power Resistor} & {\large 2} \\
+		{\large 22$\mu$H CD43} & {\large 1} \\
+		{\large 1$\mu$H 1206} & {\large 1} \\
+		{\large Barrier Terminal Block 9.5mm * 4} & {\large 1} \\
+		{\large Barrier Terminal Block 9.5mm * 2} & {\large 1} \\
+	\end{tabular}
+\end{center}
+
+
+\newpage
+
+\subsection{Motion Board}
+\begin{center}
+\setlength\extrarowheight{7pt}
+\begin{tabular}{lc}
+	{\large Component} & {\large Quantity} \\\midrule
+	%\vspace{0.7mm}
+	{\large STM32 BluePill C8} & {\large 1} \\
+	{\large TB67H450FNG H-Bridge Motor Driver HSOP8} & {\large 4} \\
+	{\large TJA1040T CAN Transceiver SOP8} & {\large 1} \\
+	{\large AMS1117-3v3 LDO SOT-223} & {\large 1} \\
+	{\large AOD403 P-Channel MOSFET DPAK} & {\large 1} \\
+	{\large NUP2105L Dual TVS Diodes SO-23} & {\large 1} \\ 
+	{\large 9.1 V Zener Diode Through Hole} & {\large 1} \\
+	{\large 0805 22$\mu$F} & {\large 1} \\
+	{\large 0805 100nF} & {\large 10} \\
+	{\large 0805 47nF} & {\large 1} \\
+	{\large 0805 22pF} & {\large 2} \\
+	{\large 0805 100$\mu$F} & {\large 4} \\
+	{\large 100$\Omega$ 1/2 Watt Resistor} & {\large 1} \\
+	{\large 0603 1.2k$\Omega$} & {\large 2} \\
+	{\large 1210 220m$\Omega$} & {\large 4} \\
+	{\large 0603 30k$\Omega$} & {\large 4} \\
+	{\large 0603 15k$\Omega$} & {\large 4} \\
+	{\large 0603 15k$\Omega$} & {\large 4} \\
+	{\large 0603 10k$\Omega$} & {\large 3} \\
+	{\large 0805 LED} & {\large 3} \\
+	{\large Barrier Terminal 9.5mm * 2} & {\large 1} \\
+	{\large Barrel Female Conenctor} & {\large 1} \\
+	{\large Terminal Block 5 mm * 2} & {\large 4} \\
+	{\large JST Connector 2.54mm * 4)} & {\large 4} \\
+	{\large JST Connector 2.54mm * 2)} & {\large 1} \\
+\end{tabular}
+\end{center}
+
+
+\subsection{VLC Receiver Board}
+\begin{center}
+\setlength\extrarowheight{7pt}
+\begin{tabular}{lc}
+{\large Component} & {\large Quantity} \\\midrule
+%\vspace{0.7mm}
+{\large STM32 BluePill C8} & {\large 1} \\
+{\large TL082 Dual Op-Amp SOP8} & {\large 2}\\
+{\large BPW34 Photodiode} & {\large 1}\\
+{\large 0805 10nF Capacitor} & {\large 1}\\
+{\large 50k{$\Omega$} Potentiometer 3386P} & {\large 4}\\
+{\large 0805 560k$\Omega$} & {\large 1}\\
+{\large 0805 220k$\Omega$} & {\large 2}\\
+{\large 0805 100k$\Omega$} & {\large 1}\\
+{\large 0805 47k$\Omega$} & {\large 1}\\
+{\large 0805 56k$\Omega$} & {\large 1}\\
+\end{tabular}
+\end{center}
